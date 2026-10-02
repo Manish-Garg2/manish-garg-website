@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Garg — Analytics / Decisions / AI</title>
+    <meta name="description" content="I turn messy business questions into clearer decisions. I use data, analysis and AI to understand what is really happening — and help work out what to do next.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..600;1,9..40,300..600&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-name">MANISH GARG</a>
+                <span class="nav-tag">ANALYTICS / DECISIONS / AI</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="work.html" class="nav-link" data-page="work">WORK</a>
+                <a href="method.html" class="nav-link" data-page="method">METHOD</a>
+                <a href="about.html" class="nav-link" data-page="about">ABOUT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="home-hero" id="homeHero">
+        <div class="hero-ambient-grid" aria-hidden="true"></div>
+
+        <div class="hero-shell">
+            <div class="hero-layout">
+
+                <!-- LEFT / EDITORIAL IDENTITY & PROPOSITION -->
+                <div class="hero-editorial">
+                    <div class="hero-badge" data-animate="fade-up">
+                        <span class="badge-pulse"></span>
+                        <span>BUSINESS ANALYTICS & DECISION PRACTICE</span>
+                    </div>
+
+                    <div class="hero-identity" data-animate="fade-up" data-delay="80">
+                        <span class="hero-kicker">MANISH GARG</span>
+                        <span class="hero-discipline">Business Analytics · Decision Intelligence · AI</span>
+                    </div>
+
+                    <h1 class="hero-title" data-animate="fade-up" data-delay="160">
+                        I turn messy business questions into <span class="title-em">clearer decisions.</span>
+                    </h1>
+
+                    <p class="hero-manifesto" data-animate="fade-up" data-delay="240">
+                        I use data, analysis and AI to understand what is really happening — and help work out what to do next.
+                    </p>
+
+                    <div class="hero-cta-group" data-animate="fade-up" data-delay="320">
+                        <a href="work.html" class="cta-primary">
+                            Explore My Work <span class="cta-arrow" aria-hidden="true">→</span>
+                        </a>
+                        <a href="method.html" class="cta-secondary">
+                            How I Think <span class="cta-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                    <!-- Single quiet rotating proof line -->
+                    <div class="hero-quiet-note" data-animate="fade-up" data-delay="380">
+                        <span class="quiet-dot" aria-hidden="true"></span>
+                        <span class="proof-ticker" id="proofTicker">55,621 donors analysed.</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT / 3 ELEVATED PROJECT ARTEFACTS -->
+                <div class="hero-collage-stage" id="collageStage" aria-label="Selected work examples">
+                    <div class="collage-canvas collage-canvas--refined" id="collageCanvas">
+
+                        <!-- ARTEFACT 1: CUSTOMER BEHAVIOUR -->
+                        <a href="work.html" class="artefact-card card-wva" aria-label="Customer journey and retention analysis example">
+                            <div class="artefact-header">
+                                <span class="artefact-tag">CUSTOMER BEHAVIOUR</span>
+                                <span class="artefact-badge">Applied Analysis</span>
+                            </div>
+                            <div class="artefact-content">
+                                <h3 class="artefact-name">Understanding why first-time supporters don't stay.</h3>
+                                <p class="artefact-summary">Tracing where loyalty drops across early communication and acquisition channels.</p>
+
+                                <div class="artefact-chart">
+                                    <svg viewBox="0 0 240 65" class="mini-chart" aria-hidden="true">
+                                        <path d="M0,52 Q45,46 75,28 T145,22 T210,12 L240,8" fill="none" stroke="#BFFF00" stroke-width="2"/>
+                                        <path d="M0,58 Q50,54 90,46 T160,42 T220,38 L240,36" fill="none" stroke="rgba(26,26,26,0.25)" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                        <circle cx="240" cy="8" r="3.5" fill="#BFFF00"/>
+                                    </svg>
+                                    <div class="chart-legend">
+                                        <span>Cohort Retention Pattern</span>
+                                        <span class="legend-delta">Drop-off Window</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artefact-footer">
+                                <span>See how I approached this</span>
+                                <span class="artefact-arrow">→</span>
+                            </div>
+                        </a>
+
+                        <!-- ARTEFACT 2: SUPPLY NETWORK -->
+                        <a href="work.html" class="artefact-card card-vicgoods" aria-label="Supply network and cost optimisation example">
+                            <div class="artefact-header">
+                                <span class="artefact-tag">SUPPLY NETWORK</span>
+                                <span class="artefact-badge">Simulation</span>
+                            </div>
+                            <div class="artefact-content">
+                                <h3 class="artefact-name">Finding a more resilient way to move products.</h3>
+                                <p class="artefact-summary">Balancing lower distribution costs against customer fulfillment commitments.</p>
+
+                                <div class="artefact-chart">
+                                    <svg viewBox="0 0 240 65" class="mini-chart" aria-hidden="true">
+                                        <line x1="10" y1="55" x2="230" y2="55" stroke="rgba(26,26,26,0.15)" stroke-width="1"/>
+                                        <line x1="10" y1="10" x2="10" y2="55" stroke="rgba(26,26,26,0.15)" stroke-width="1"/>
+                                        <path d="M15,50 C60,48 110,38 160,22 C190,14 220,10 230,8" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+                                        <circle cx="160" cy="22" r="4" fill="#BFFF00" stroke="#1A1A1A" stroke-width="1.5"/>
+                                    </svg>
+                                    <div class="chart-legend">
+                                        <span>Optimal Cost Boundary</span>
+                                        <span class="legend-delta">Balanced SLA</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artefact-footer">
+                                <span>See how I approached this</span>
+                                <span class="artefact-arrow">→</span>
+                            </div>
+                        </a>
+
+                        <!-- ARTEFACT 3: TESTING DECISIONS UNDER UNCERTAINTY -->
+                        <a href="work.html" class="artefact-card card-alpine" aria-label="Testing decisions under uncertainty example">
+                            <div class="artefact-header">
+                                <span class="artefact-tag">UNCERTAINTY</span>
+                                <span class="artefact-badge">Prototype</span>
+                            </div>
+                            <div class="artefact-content">
+                                <h3 class="artefact-name">Testing decisions under uncertainty.</h3>
+                                <p class="artefact-summary">Simulating operating cash flow and capacity under volatile seasonal demand.</p>
+
+                                <div class="artefact-chart">
+                                    <svg viewBox="0 0 240 65" class="mini-chart" aria-hidden="true">
+                                        <path d="M10,60 Q80,56 120,12 Q160,56 230,60 Z" fill="rgba(191,255,0,0.22)" stroke="#1A1A1A" stroke-width="1.5"/>
+                                        <line x1="85" y1="10" x2="85" y2="60" stroke="#D64545" stroke-width="1.5" stroke-dasharray="3,2"/>
+                                    </svg>
+                                    <div class="chart-legend">
+                                        <span>Worst-Case Risk Margin</span>
+                                        <span class="legend-delta">Safe Operating Zone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artefact-footer">
+                                <span>See how I approached this</span>
+                                <span class="artefact-arrow">→</span>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="collage-caption">
+                        <span class="caption-dot"></span>
+                        <span>Selected analytical work — select any to explore evidence</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== SECTION 2: INTERACTIVE SITUATION SELECTOR ===== -->
+    <!-- "WHAT ARE YOU TRYING TO MAKE SENSE OF?" -->
+    <section class="sense-section" id="senseSection">
+        <div class="section-container">
+            <div class="section-header-editorial" data-animate="fade-up">
+                <span class="section-kicker">WHAT ARE YOU TRYING TO MAKE SENSE OF?</span>
+                <h2 class="section-display-title">What's not making sense right now?</h2>
+                <p class="section-lead-copy">
+                    Every meaningful analytical project begins with an uncomfortable question. Select a situation you are dealing with right now to see how I would begin breaking it down.
+                </p>
+            </div>
+
+            <!-- Conversational Dynamic Workspace -->
+            <div class="sense-workspace" id="senseWorkspace">
+                
+                <!-- Left: 6 Concrete Business Situations -->
+                <div class="sense-selector-list" role="tablist" aria-label="Business situation choices">
+                    <button class="sense-choice active" data-situation="01" role="tab" aria-selected="true" aria-controls="senseResponsePanel">
+                        <span class="choice-num">01</span>
+                        <div class="choice-body">
+                            <span class="choice-title">SALES ARE UP. BUT PROFIT ISN'T.</span>
+                            <span class="choice-tag">Margin & Product Mix</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                    <button class="sense-choice" data-situation="02" role="tab" aria-selected="false" aria-controls="senseResponsePanel">
+                        <span class="choice-num">02</span>
+                        <div class="choice-body">
+                            <span class="choice-title">CUSTOMERS AREN'T COMING BACK.</span>
+                            <span class="choice-tag">Retention & Cohorts</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                    <button class="sense-choice" data-situation="03" role="tab" aria-selected="false" aria-controls="senseResponsePanel">
+                        <span class="choice-num">03</span>
+                        <div class="choice-body">
+                            <span class="choice-title">COSTS KEEP RISING.</span>
+                            <span class="choice-tag">Operational Efficiency</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                    <button class="sense-choice" data-situation="04" role="tab" aria-selected="false" aria-controls="senseResponsePanel">
+                        <span class="choice-num">04</span>
+                        <div class="choice-body">
+                            <span class="choice-title">WE HAVE DATA. BUT NO CLEAR ANSWER.</span>
+                            <span class="choice-tag">Clarity & Signal</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                    <button class="sense-choice" data-situation="05" role="tab" aria-selected="false" aria-controls="senseResponsePanel">
+                        <span class="choice-num">05</span>
+                        <div class="choice-body">
+                            <span class="choice-title">WE WANT TO KNOW WHAT HAPPENS NEXT.</span>
+                            <span class="choice-tag">Scenarios & Risk</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+
+                    <button class="sense-choice" data-situation="06" role="tab" aria-selected="false" aria-controls="senseResponsePanel">
+                        <span class="choice-num">06</span>
+                        <div class="choice-body">
+                            <span class="choice-title">WE'RE THINKING ABOUT AI. BUT WHERE WOULD IT ACTUALLY HELP?</span>
+                            <span class="choice-tag">Practical Decision AI</span>
+                        </div>
+                        <span class="choice-arrow" aria-hidden="true">→</span>
+                    </button>
+                </div>
+
+                <!-- Right: Active Transformation Response Panel -->
+                <div class="sense-response-panel" id="senseResponsePanel" role="tabpanel">
+                    <div class="response-card" id="responseCard">
+                        
+                        <div class="response-header">
+                            <span class="response-badge" id="responseBadge">SITUATION 01 · PROFITABILITY</span>
+                            <span class="response-subtitle" id="responseSubtitle">Finding what changed</span>
+                        </div>
+
+                        <h3 class="response-heading" id="responseHeading">First, find out what changed.</h3>
+                        <p class="response-lead" id="responseLead">
+                            Price? Volume? Product mix? Customer mix? Costs? When top-line revenue hides margin erosion, you need to dissect the drivers before making cuts.
+                        </p>
+
+                        <!-- Approach Steps in Human Language -->
+                        <div class="response-approach">
+                            <span class="approach-label">WHAT I CAN HELP WITH:</span>
+                            <ul class="approach-list" id="approachList">
+                                <li>Find what is driving the change</li>
+                                <li>Separate the signal from the noise</li>
+                                <li>Test what actually matters to the bottom line</li>
+                                <li>Turn the evidence into a decision</li>
+                            </ul>
+                        </div>
+
+                        <!-- Real Work Connection Fragment with Visual Element -->
+                        <div class="response-evidence-box">
+                            <div class="evidence-box-top">
+                                <span class="evidence-tag" id="evidenceTag">APPLIED ANALYSIS</span>
+                                <span class="evidence-name" id="evidenceName">Margin & product trade-off analysis</span>
+                            </div>
+                            
+                            <!-- Dynamic Visual Fragment -->
+                            <div class="evidence-visual-wrap" id="evidenceVisual">
+                                <svg viewBox="0 0 260 50" class="frag-chart" aria-hidden="true">
+                                    <line x1="5" y1="42" x2="255" y2="42" stroke="rgba(26,26,26,0.12)" stroke-width="1"/>
+                                    <polyline points="10,38 70,30 130,22 190,16 250,10" fill="none" stroke="#1A1A1A" stroke-width="1.8"/>
+                                    <polyline points="10,20 70,24 130,30 190,36 250,40" fill="none" stroke="#D64545" stroke-width="1.5" stroke-dasharray="3,2"/>
+                                    <circle cx="250" cy="10" r="3" fill="#BFFF00" stroke="#1A1A1A" stroke-width="1"/>
+                                </svg>
+                            </div>
+
+                            <p class="evidence-desc" id="evidenceDesc">
+                                Modeled conflicting objectives between margin returns and volume fulfillment to find the optimal operating boundary.
+                            </p>
+                            <a href="work.html" class="evidence-link" id="evidenceLink">
+                                See how I approached something similar →
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 3: HOW I APPROACH PROBLEMS (METHOD BRIDGE) ===== -->
+    <section class="home-approach-bridge" id="approachSection">
+        <div class="section-container">
+            <div class="bridge-card" data-animate="fade-up">
+                <span class="section-kicker">HOW I THINK</span>
+                
+                <p class="bridge-quote">
+                    “Curious about how businesses work.<br>
+                    Obsessed with understanding why the numbers move.”
+                </p>
+
+                <p class="bridge-narrative">
+                    Machine intelligence finds patterns and probabilities in complex data. Human judgement gives them strategic context, ethical boundary, and real accountability. The value is never the technology alone — it's the clarity of the decision that follows.
+                </p>
+
+                <div class="bridge-formula" aria-hidden="true">
+                    <span class="formula-pill">SIGNAL</span>
+                    <span class="formula-op">+</span>
+                    <span class="formula-pill">CONTEXT</span>
+                    <span class="formula-op">=</span>
+                    <span class="formula-pill formula-pill--result">DECISION</span>
+                </div>
+
+                <div class="bridge-cta">
+                    <a href="method.html" class="cta-secondary">
+                        How I Think <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 4: THE NEXT STEP / HANDSHAKE ===== -->
+    <section class="home-gateway" id="gatewaySection">
+        <div class="section-container">
+            <div class="gateway-card" data-animate="fade-up">
+                <span class="gateway-kicker">WANT TO SEE THE WORK?</span>
+                <h2 class="gateway-title">
+                    Ready to turn an ambiguous question<br class="hide-mobile">
+                    into a clearer decision?
+                </h2>
+                <p class="gateway-desc">
+                    Explore detailed project evidence, inspect the analytical problem-solving framework, or reach out directly to discuss your business challenge.
+                </p>
+                <div class="gateway-actions">
+                    <a href="work.html" class="cta-primary">
+                        Explore My Work <span aria-hidden="true">→</span>
+                    </a>
+                    <a href="method.html" class="cta-secondary">
+                        How I Think <span aria-hidden="true">↗</span>
+                    </a>
+                    <a href="mailto:hello@manishgarg.com" class="cta-ghost">
+                        Start a Conversation <span aria-hidden="true">✉</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SHARED FOOTER / LOWER NAVIGATION (CONSISTENT ACROSS ALL PAGES) ===== -->
+    <footer class="site-footer" id="siteFooter" role="contentinfo">
+        <div class="footer-container">
+            
+            <!-- Top Hero Banner / Closing Call to Action -->
+            <div class="footer-hero" data-animate="fade-up">
+                <div class="footer-headline-group">
+                    <span class="footer-kicker">NEXT STEP</span>
+                    <h2 class="footer-headline">Have a problem worth exploring?</h2>
+                    <p class="footer-lead">
+                        Curious about business questions. Grounded in evidence. Ready to talk.
+                    </p>
+                </div>
+                <div class="footer-cta-wrap">
+                    <a href="mailto:hello@manishgarg.com" class="footer-cta-btn" id="footerContactBtn" data-config-link="email">
+                        <span>Start a Conversation</span>
+                        <span class="footer-cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Middle / 3-Column Main Grid -->
+            <div class="footer-main-grid">
+                
+                <!-- Brand & Positioning -->
+                <div class="footer-brand-col">
+                    <a href="index.html" class="footer-brand-title">MANISH GARG</a>
+                    <p class="footer-brand-tag">Business Analytics · Decision Intelligence · AI</p>
+                    <p class="footer-brand-desc">
+                        Turning messy business questions into evidence, and evidence into decisions.
+                    </p>
+                    <div class="footer-location">
+                        <span class="loc-dot" aria-hidden="true"></span>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="footer-nav-col">
+                    <span class="footer-col-label">EXPLORE</span>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link active" data-page="home" aria-current="page">Home <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="work.html" class="footer-link" data-page="work">Work <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="method.html" class="footer-link" data-page="method">Method <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="about.html" class="footer-link" data-page="about">About <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Direct Social & Contact Tabs -->
+                <div class="footer-contact-col">
+                    <span class="footer-col-label">CONNECT</span>
+                    <ul class="footer-social-tabs">
+                        <li>
+                            <a href="https://www.linkedin.com/in/manishgarg" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="linkedin" aria-label="LinkedIn profile">
+                                <span class="social-icon">LI</span>
+                                <span class="social-name">LinkedIn</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="instagram" aria-label="Instagram profile">
+                                <span class="social-icon">IG</span>
+                                <span class="social-name">Instagram</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:hello@manishgarg.com" class="social-tab" data-config-link="email" aria-label="Direct email">
+                                <span class="social-icon">✉</span>
+                                <span class="social-name">Email</span>
+                                <span class="social-arrow" aria-hidden="true">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar / Legal & Attribution -->
+            <div class="footer-bottom-bar">
+                <span class="footer-copyright">© 2026 Manish Garg · Business Analytics & Decision Practice</span>
+                <span class="footer-credo">Built around questions, evidence and decisions.</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

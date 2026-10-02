@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work — Manish Garg · Analytics / Decisions / AI</title>
+    <meta name="description" content="Different problems. Different tools. The same goal: clearer decisions. Selected analytical work, simulation models, and decision practice.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..600;1,9..40,300..600&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="work">
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-name">MANISH GARG</a>
+                <span class="nav-tag">ANALYTICS / DECISIONS / AI</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="work.html" class="nav-link active" data-page="work" aria-current="page">WORK</a>
+                <a href="method.html" class="nav-link" data-page="method">METHOD</a>
+                <a href="about.html" class="nav-link" data-page="about">ABOUT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== 1. WORK PAGE HERO ===== -->
+    <header class="work-page-hero">
+        <div class="section-container">
+            <div class="work-hero-grid">
+                
+                <!-- Left: Headline & Manifesto -->
+                <div class="work-hero-editorial" data-animate="fade-up">
+                    <span class="work-hero-kicker">SELECTED PRACTICE & CASE EVIDENCE</span>
+                    <h1 class="work-hero-title">
+                        Different problems.<br>
+                        Different tools.<br>
+                        <span class="hero-em">The same goal: clearer decisions.</span>
+                    </h1>
+                    <p class="work-hero-lead">
+                        Real business challenges don't arrive categorized by method or software. Here is how I investigate messy questions, extract signal from data, and evaluate choices before committing resources.
+                    </p>
+                </div>
+
+                <!-- Right: Creative Visual (Question -> Evidence -> Decision) -->
+                <div class="work-journey-visual" id="workJourneyVisual" data-animate="fade-up" data-delay="100">
+                    <div class="journey-header">
+                        <span class="journey-label">ANALYTICAL JOURNEY</span>
+                        <span class="journey-badge">GROUNDED IN REAL DATA</span>
+                    </div>
+
+                    <div class="journey-flow">
+                        <!-- Step 1: Question -->
+                        <div class="journey-step active" id="journeyStep1">
+                            <span class="step-num">01</span>
+                            <div class="step-info">
+                                <h3 class="step-name">Ambiguous Business Question</h3>
+                                <p class="step-desc">Why is donor retention dropping? Which distribution routes break under stress? Where is margin leaking?</p>
+                            </div>
+                        </div>
+
+                        <div class="journey-connector" aria-hidden="true"></div>
+
+                        <!-- Step 2: Evidence -->
+                        <div class="journey-step" id="journeyStep2">
+                            <span class="step-num">02</span>
+                            <div class="step-info">
+                                <h3 class="step-name">Signal Extraction & Simulation</h3>
+                                <p class="step-desc">Multi-cohort survival curves, mathematical constraint networks, 1,000-scenario Monte Carlo simulations.</p>
+                            </div>
+                        </div>
+
+                        <div class="journey-connector" aria-hidden="true"></div>
+
+                        <!-- Step 3: Decision -->
+                        <div class="journey-step" id="journeyStep3">
+                            <span class="step-num">03</span>
+                            <div class="step-info">
+                                <h3 class="step-name">Grounded Business Decision</h3>
+                                <p class="step-desc">Targeted stewardship cadence, resilient fulfillment policy, and protected capital reserves.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== 2. INTERACTIVE PERSPECTIVE LENSES ===== -->
+    <!-- "WHAT DO YOU WANT TO SEE?" -->
+    <section class="work-lens-section" id="workLensSection">
+        <div class="section-container">
+            <div class="lens-header" data-animate="fade-up">
+                <div>
+                    <span class="lens-kicker">PERSPECTIVE</span>
+                    <h2 class="lens-title">What do you want to see?</h2>
+                </div>
+                <p class="lens-lead">
+                    Filter the work through the kind of business challenge you are trying to solve.
+                </p>
+            </div>
+
+            <div class="lens-group" role="tablist" aria-label="Work perspective filters" data-animate="fade-up" data-delay="80">
+                <button class="work-lens-btn active" data-filter="all" role="tab" aria-selected="true">
+                    <span>ALL WORK</span>
+                    <span class="lens-count">6</span>
+                </button>
+                <button class="work-lens-btn" data-filter="understand" role="tab" aria-selected="false">
+                    <span>UNDERSTAND</span>
+                    <span class="lens-count">2</span>
+                </button>
+                <button class="work-lens-btn" data-filter="decide" role="tab" aria-selected="false">
+                    <span>DECIDE</span>
+                    <span class="lens-count">3</span>
+                </button>
+                <button class="work-lens-btn" data-filter="predict" role="tab" aria-selected="false">
+                    <span>PREDICT</span>
+                    <span class="lens-count">2</span>
+                </button>
+                <button class="work-lens-btn" data-filter="explore" role="tab" aria-selected="false">
+                    <span>EXPLORE</span>
+                    <span class="lens-count">1</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3. FEATURED & SUPPORTING WORK: ASYMMETRICAL EDITORIAL LAYOUT ===== -->
+    <main class="work-grid-section" id="workGridSection">
+        <div class="section-container">
+            <div class="work-catalogue" id="workCatalogue">
+
+                <!-- ===== FEATURE 1 (HEROIC LEAD CARD): DONOR PROGRESSION ===== -->
+                <article class="work-card work-card--lead" data-lens="understand" data-animate="fade-up">
+                    <div class="work-card-header">
+                        <span class="work-card-lens">UNDERSTAND · DIAGNOSTIC ANALYTICS</span>
+                        <span class="work-card-badge">Applied Practice · Capstone Lead</span>
+                    </div>
+
+                    <div class="work-card-inner">
+                        <!-- Left: Visual Artefact -->
+                        <div class="work-card-visual" aria-label="Donor retention cohort chart">
+                            <svg viewBox="0 0 460 220" class="work-card-svg" aria-hidden="true">
+                                <!-- Grid Lines -->
+                                <line x1="40" y1="30" x2="440" y2="30" stroke="rgba(26,26,26,0.06)" stroke-width="1"/>
+                                <line x1="40" y1="80" x2="440" y2="80" stroke="rgba(26,26,26,0.06)" stroke-width="1"/>
+                                <line x1="40" y1="130" x2="440" y2="130" stroke="rgba(26,26,26,0.06)" stroke-width="1"/>
+                                <line x1="40" y1="180" x2="440" y2="180" stroke="rgba(26,26,26,0.12)" stroke-width="1.5"/>
+                                
+                                <!-- Cohort Trajectories -->
+                                <!-- Baseline generic cohort -->
+                                <path d="M40,50 C90,65 140,140 190,165 C260,174 340,176 440,178" fill="none" stroke="rgba(26,26,26,0.3)" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <!-- Targeted stewardship cohort -->
+                                <path d="M40,50 C100,55 160,82 220,95 C280,105 360,112 440,115" fill="none" stroke="#111111" stroke-width="2.5"/>
+                                
+                                <!-- Drop-off Cliff Window (90 Days) -->
+                                <rect x="130" y="30" width="80" height="150" fill="rgba(191,255,0,0.15)"/>
+                                <line x1="170" y1="30" x2="170" y2="180" stroke="#D64545" stroke-width="1.5" stroke-dasharray="3,2"/>
+                                
+                                <!-- Highlight nodes -->
+                                <circle cx="170" cy="155" r="4.5" fill="#D64545"/>
+                                <circle cx="220" cy="95" r="4.5" fill="#BFFF00" stroke="#111111" stroke-width="1.5"/>
+                                <circle cx="440" cy="115" r="4.5" fill="#BFFF00" stroke="#111111" stroke-width="1.5"/>
+
+                                <!-- Text Labels -->
+                                <text x="45" y="24" font-family="'JetBrains Mono', monospace" font-size="9" fill="#52524E">100% RETENTION</text>
+                                <text x="135" y="45" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#111111" font-weight="600">90-DAY CLIFF</text>
+                                <text x="320" y="105" font-family="'JetBrains Mono', monospace" font-size="9" fill="#111111" font-weight="600">+22% RETENTION GAIN</text>
+                                <text x="320" y="168" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#52524E">BROADCAST ATTRIBUTION</text>
+                            </svg>
+                        </div>
+
+                        <!-- Right: Business Narrative -->
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">DONOR PROGRESSION</h3>
+                            <p class="work-card-question">Understanding why first-time supporters stop moving forward.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">Acquiring new supporters was costly, yet a steep, unexplained drop-off occurred immediately following the initial contribution.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Audited 55,621 supporter journeys across transaction recency, frequency, and contact cadence. Revealed that 78% of attrition happened within an unguided 90-day window.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Replaced generic broadcast appeals with personalized trigger-based stewardship, stabilizing repeat participation and protecting multi-year lifetime value.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">55,621 Journeys · Diagnostic Analytics</span>
+                                <a href="about.html" class="work-card-cta">
+                                    <span>Explore the evidence</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ===== PAIR ROW 1 (TWO CONSTRASTING CARDS) ===== -->
+                <div class="work-grid-pair">
+                    
+                    <!-- CARD 2: SUPPLY NETWORK RESILIENCE -->
+                    <article class="work-card" data-lens="decide" data-animate="fade-up">
+                        <div class="work-card-header">
+                            <span class="work-card-lens">DECIDE · CONSTRAINT MODELLING</span>
+                            <span class="work-card-badge">Simulation · Operations Model</span>
+                        </div>
+
+                        <div class="work-card-visual" aria-label="Network distribution topology">
+                            <svg viewBox="0 0 380 180" class="work-card-svg" aria-hidden="true">
+                                <!-- Background Links -->
+                                <line x1="50" y1="50" x2="160" y2="40" stroke="rgba(26,26,26,0.18)" stroke-width="1.5"/>
+                                <line x1="50" y1="50" x2="160" y2="120" stroke="rgba(26,26,26,0.18)" stroke-width="1.5"/>
+                                <line x1="50" y1="130" x2="160" y2="120" stroke="rgba(26,26,26,0.18)" stroke-width="1.5"/>
+                                
+                                <!-- Transshipment Inter-hub Arc (Optimized) -->
+                                <line x1="160" y1="40" x2="260" y2="70" stroke="#111111" stroke-width="2.5"/>
+                                <line x1="160" y1="120" x2="260" y2="70" stroke="#111111" stroke-width="2.5"/>
+                                
+                                <!-- Fulfillment to Demand -->
+                                <line x1="260" y1="70" x2="340" y2="40" stroke="#BFFF00" stroke-width="2"/>
+                                <line x1="260" y1="70" x2="340" y2="90" stroke="#BFFF00" stroke-width="2"/>
+                                <line x1="260" y1="70" x2="340" y2="140" stroke="#BFFF00" stroke-width="2"/>
+                                
+                                <!-- Network Nodes -->
+                                <circle cx="50" cy="50" r="7" fill="#111111"/>
+                                <circle cx="50" cy="130" r="7" fill="#111111"/>
+                                
+                                <circle cx="160" cy="40" r="9" fill="#FAF9F5" stroke="#111111" stroke-width="2"/>
+                                <circle cx="160" cy="120" r="9" fill="#FAF9F5" stroke="#111111" stroke-width="2"/>
+                                
+                                <!-- Central Hub (Optimal) -->
+                                <circle cx="260" cy="70" r="11" fill="#BFFF00" stroke="#111111" stroke-width="2"/>
+                                
+                                <!-- Demand Nodes -->
+                                <circle cx="340" cy="40" r="5" fill="#52524E"/>
+                                <circle cx="340" cy="90" r="5" fill="#52524E"/>
+                                <circle cx="340" cy="140" r="5" fill="#52524E"/>
+
+                                <!-- Micro Labels -->
+                                <text x="40" y="32" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">SUPPLY</text>
+                                <text x="145" y="24" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">TRANSIT</text>
+                                <text x="240" y="50" font-family="'JetBrains Mono', monospace" font-size="8" fill="#111111" font-weight="600">CONSOLIDATION</text>
+                                <text x="325" y="26" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">DEMAND SLA</text>
+                            </svg>
+                        </div>
+
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">SUPPLY NETWORK RESILIENCE</h3>
+                            <p class="work-card-question">Finding a more resilient way to move products.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">Rising freight rates and unpredictable delivery delays across regional hubs were degrading operating margins.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Formulated a mathematical constraint model balancing throughput capacity, inter-facility transfer costs, and strict customer delivery SLAs.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Identified resilient multi-tier routes that protected 98% on-time fulfillment under supply shocks while cutting redundant cross-dock handling.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">4 Facilities · Mathematical LP</span>
+                                <a href="method.html" class="work-card-cta">
+                                    <span>See how it was solved</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 3: DECISIONS UNDER UNCERTAINTY -->
+                    <article class="work-card" data-lens="decide predict" data-animate="fade-up" data-delay="100">
+                        <div class="work-card-header">
+                            <span class="work-card-lens">DECIDE & PREDICT · STOCHASTIC MODELLING</span>
+                            <span class="work-card-badge">Prototype · Decision Model</span>
+                        </div>
+
+                        <div class="work-card-visual" aria-label="Monte Carlo probability density curve">
+                            <svg viewBox="0 0 380 180" class="work-card-svg" aria-hidden="true">
+                                <!-- Axes -->
+                                <line x1="30" y1="150" x2="360" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+                                <line x1="30" y1="20" x2="30" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+                                
+                                <!-- Risk Tail Area (VaR < 0) -->
+                                <path d="M30,148 Q70,147 90,135 Q105,120 115,95 L115,150 Z" fill="rgba(214,69,69,0.2)"/>
+                                
+                                <!-- Probability Density Distribution (1,000 Scenarios) -->
+                                <path d="M30,148 Q70,147 115,95 Q150,30 200,25 Q250,30 285,95 Q330,147 360,148 Z" fill="rgba(191,255,0,0.18)" stroke="#111111" stroke-width="2"/>
+                                
+                                <!-- 5% Value at Risk Line -->
+                                <line x1="115" y1="20" x2="115" y2="150" stroke="#D64545" stroke-width="1.8" stroke-dasharray="3,2"/>
+                                
+                                <!-- Median Expected Value Line -->
+                                <line x1="200" y1="20" x2="200" y2="150" stroke="#111111" stroke-width="1.5" stroke-dasharray="2,2"/>
+                                <circle cx="200" cy="25" r="4.5" fill="#BFFF00" stroke="#111111" stroke-width="1.5"/>
+
+                                <!-- Micro Labels -->
+                                <text x="75" y="165" font-family="'JetBrains Mono', monospace" font-size="8" fill="#D64545" font-weight="600">5% DOWNSIDE VAR</text>
+                                <text x="180" y="15" font-family="'JetBrains Mono', monospace" font-size="8" fill="#111111" font-weight="600">MEDIAN PROFIT</text>
+                                <text x="245" y="80" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">SAFE OPERATING ENVELOPE</text>
+                            </svg>
+                        </div>
+
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">DECISIONS UNDER UNCERTAINTY</h3>
+                            <p class="work-card-question">Testing choices before committing capital.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">Seasonal weather shocks and demand variability meant single-number forecasts regularly resulted in painful inventory stockouts or capital surplus traps.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Simulated 1,000 Monte Carlo iterations combining volatile snowfall patterns, variable visitor volumes, and fluctuating operational labor costs.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Established an operating envelope that balanced staffing commitments against severe drawdown risk, preserving baseline liquidity.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">1,000 Runs · Monte Carlo</span>
+                                <a href="method.html" class="work-card-cta">
+                                    <span>Follow the thinking</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- ===== FEATURE 4 (WIDE LANDSCAPE CARD): AI & CONSUMER SIGNALS ===== -->
+                <article class="work-card work-card--wide" data-lens="explore understand" data-animate="fade-up">
+                    <div class="work-card-header">
+                        <span class="work-card-lens">EXPLORE & UNDERSTAND · PRACTICAL DECISION AI</span>
+                        <span class="work-card-badge">Research · NLP Workflow</span>
+                    </div>
+
+                    <div class="work-card-inner">
+                        <!-- Left: Visual Artefact -->
+                        <div class="work-card-visual" aria-label="Consumer topic and sentiment clustering diagram">
+                            <svg viewBox="0 0 440 210" class="work-card-svg" aria-hidden="true">
+                                <!-- Cluster Grid -->
+                                <circle cx="120" cy="80" r="45" fill="rgba(191,255,0,0.18)" stroke="#111111" stroke-width="1.5"/>
+                                <circle cx="280" cy="70" r="50" fill="rgba(214,69,69,0.14)" stroke="#D64545" stroke-width="1.5"/>
+                                <circle cx="200" cy="150" r="38" fill="rgba(26,26,26,0.06)" stroke="#52524E" stroke-width="1.2"/>
+
+                                <!-- Inner Topic Node Points -->
+                                <circle cx="105" cy="70" r="4" fill="#111111"/>
+                                <circle cx="135" cy="85" r="4.5" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+                                <circle cx="115" cy="98" r="3.5" fill="#111111"/>
+
+                                <circle cx="270" cy="55" r="4" fill="#D64545"/>
+                                <circle cx="295" cy="80" r="5" fill="#D64545"/>
+                                <circle cx="260" cy="85" r="3.5" fill="#D64545"/>
+
+                                <circle cx="195" cy="145" r="3.5" fill="#52524E"/>
+                                <circle cx="215" cy="155" r="4" fill="#52524E"/>
+
+                                <!-- Connective Vector Lines -->
+                                <line x1="120" y1="80" x2="280" y2="70" stroke="rgba(26,26,26,0.15)" stroke-dasharray="3,3"/>
+                                <line x1="120" y1="80" x2="200" y2="150" stroke="rgba(26,26,26,0.15)" stroke-dasharray="3,3"/>
+
+                                <!-- Theme Indicators -->
+                                <text x="75" y="75" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#111111" font-weight="600">PERFORMANCE (+)</text>
+                                <text x="245" y="65" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#D64545" font-weight="600">CHARGING FRICTION (-)</text>
+                                <text x="160" y="160" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">DEALER TRANSPARENCY</text>
+                            </svg>
+                        </div>
+
+                        <!-- Right: Narrative -->
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">CONSUMER VOICES & AI SIGNALS</h3>
+                            <p class="work-card-question">Finding what people are really saying about electric vehicles.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">Conventional five-star satisfaction surveys failed to capture the nuances of purchasing hesitation and ownership friction.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Applied unsupervised Natural Language Processing and topic modeling across thousands of unstructured driver reviews, surfacing latent anxiety clusters around public charger reliability and true cold-weather range.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Converted messy text into quantified feature prioritization, guiding marketing teams to address specific real-world friction rather than generic sustainability claims.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">Thousands of Reviews · Topic Modeling</span>
+                                <a href="about.html" class="work-card-cta">
+                                    <span>Explore the findings</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ===== PAIR ROW 2 (TWO SUPPORTING PIECES) ===== -->
+                <div class="work-grid-pair">
+                    
+                    <!-- CARD 5: CAPITAL ALLOCATION & PORTFOLIO RISK -->
+                    <article class="work-card" data-lens="decide predict" data-animate="fade-up">
+                        <div class="work-card-header">
+                            <span class="work-card-lens">DECIDE & PREDICT · QUANTITATIVE ALLOCATION</span>
+                            <span class="work-card-badge">Simulation · Quantitative Model</span>
+                        </div>
+
+                        <div class="work-card-visual" aria-label="Markowitz efficient frontier curve">
+                            <svg viewBox="0 0 380 180" class="work-card-svg" aria-hidden="true">
+                                <line x1="30" y1="150" x2="360" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+                                <line x1="30" y1="20" x2="30" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+
+                                <!-- Efficient Frontier Curve -->
+                                <path d="M50,140 C80,105 130,45 220,35 C280,30 330,26 355,24" fill="none" stroke="#111111" stroke-width="2.2"/>
+                                
+                                <!-- Capital Allocation Line (CAL) -->
+                                <line x1="30" y1="120" x2="280" y2="20" stroke="#BFFF00" stroke-width="2"/>
+                                
+                                <!-- Optimal Tangency Node -->
+                                <circle cx="160" cy="58" r="5" fill="#BFFF00" stroke="#111111" stroke-width="1.5"/>
+                                
+                                <!-- Minimum Variance Portfolio -->
+                                <circle cx="80" cy="105" r="4" fill="#111111"/>
+
+                                <!-- Labels -->
+                                <text x="172" y="55" font-family="'JetBrains Mono', monospace" font-size="8" fill="#111111" font-weight="600">OPTIMAL SHARPE RATIO</text>
+                                <text x="90" y="112" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#52524E">MIN VARIANCE</text>
+                                <text x="40" y="165" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">VOLATILITY (RISK)</text>
+                                <text x="35" y="15" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">EXPECTED RETURN</text>
+                            </svg>
+                        </div>
+
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">CAPITAL ALLOCATION & PORTFOLIO RISK</h3>
+                            <p class="work-card-question">Balancing return against downside risk across volatile assets.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">Standard correlation assumptions break down during market dislocations, leaving balanced allocations exposed to severe compounding drawdown.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Modeled Markowitz mean-variance efficient frontiers with downside semi-variance constraints, testing diversification durability under macroeconomic shocks.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Delivered an allocation weight matrix that optimized risk-adjusted returns while capping peak-to-trough equity erosion.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">Multi-Asset · Efficient Frontier</span>
+                                <a href="method.html" class="work-card-cta">
+                                    <span>See the model</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 6: WORKFORCE DYNAMICS & RETENTION -->
+                    <article class="work-card" data-lens="understand" data-animate="fade-up" data-delay="100">
+                        <div class="work-card-header">
+                            <span class="work-card-lens">UNDERSTAND · PEOPLE ANALYTICS</span>
+                            <span class="work-card-badge">Applied Analysis · Diagnostic Practice</span>
+                        </div>
+
+                        <div class="work-card-visual" aria-label="Workforce overtime and retention hazard curve">
+                            <svg viewBox="0 0 380 180" class="work-card-svg" aria-hidden="true">
+                                <line x1="30" y1="150" x2="360" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+                                <line x1="30" y1="20" x2="30" y2="150" stroke="rgba(26,26,26,0.15)" stroke-width="1.5"/>
+
+                                <!-- Retention Stability Line -->
+                                <path d="M30,135 Q120,130 190,110 Q240,85 270,35 Q300,20 350,15" fill="none" stroke="#111111" stroke-width="2"/>
+                                
+                                <!-- Burnout Hazard Inflection Window -->
+                                <rect x="180" y="20" width="80" height="130" fill="rgba(214,69,69,0.12)"/>
+                                <line x1="220" y1="20" x2="220" y2="150" stroke="#D64545" stroke-width="1.5" stroke-dasharray="3,2"/>
+                                <circle cx="220" cy="98" r="4.5" fill="#D64545"/>
+
+                                <!-- Text -->
+                                <text x="185" y="15" font-family="'JetBrains Mono', monospace" font-size="8" fill="#D64545" font-weight="600">BURNOUT INFLECTION</text>
+                                <text x="40" y="125" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">SUSTAINABLE CAPACITY</text>
+                                <text x="250" y="165" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E">CONSECUTIVE OVERTIME (HRS)</text>
+                            </svg>
+                        </div>
+
+                        <div class="work-card-content">
+                            <h3 class="work-card-title">WORKFORCE DYNAMICS & RETENTION</h3>
+                            <p class="work-card-question">Finding where workload and turnover problems intersect.</p>
+
+                            <div class="work-card-breakdown">
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">CONTEXT</span>
+                                    <span class="breakdown-text">High attrition in specialized frontline roles was inflating recruitment cycles, driving up onboarding costs, and impacting team morale.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">SIGNAL</span>
+                                    <span class="breakdown-text">Linked overtime hours, tenure distribution, and scheduling patterns to identify the statistical breaking point where turnover probability doubled.</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span class="breakdown-label">DECISION</span>
+                                    <span class="breakdown-text">Restructured scheduling guidelines to cap consecutive high-intensity shifts, reducing early tenure attrition and preserving operational knowledge.</span>
+                                </div>
+                            </div>
+
+                            <div class="work-card-footer">
+                                <span class="work-card-meta">Diagnostic Analytics · Retention Modeling</span>
+                                <a href="about.html" class="work-card-cta">
+                                    <span>Follow the evidence</span>
+                                    <span class="cta-arrow" aria-hidden="true">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== 4. LOWER WORK PAGE: TRANSITION TO METHOD ===== -->
+    <section class="work-transition-bridge" id="workTransitionBridge">
+        <div class="section-container">
+            <div class="transition-card" data-animate="fade-up">
+                <span class="transition-kicker">THE FOUNDATION</span>
+                <h2 class="transition-title">
+                    The work changes.<br>
+                    The way of thinking doesn't.
+                </h2>
+                <p class="transition-lead">
+                    Every project starts with a different problem. The approach is always to understand what matters, find the useful signal, and turn it into a clearer decision.
+                </p>
+                <div class="transition-actions">
+                    <a href="method.html" class="cta-primary">
+                        Explore the Method <span class="cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <a href="about.html" class="cta-secondary">
+                        About Manish <span class="cta-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 5. SHARED FOOTER / LOWER NAVIGATION (CONSISTENT ACROSS ALL PAGES) ===== -->
+    <footer class="site-footer" id="siteFooter" role="contentinfo">
+        <div class="footer-container">
+            
+            <!-- Top Hero Banner / Closing Call to Action -->
+            <div class="footer-hero" data-animate="fade-up">
+                <div class="footer-headline-group">
+                    <span class="footer-kicker">NEXT STEP</span>
+                    <h2 class="footer-headline">Have a problem worth exploring?</h2>
+                    <p class="footer-lead">
+                        Curious about business questions. Grounded in evidence. Ready to talk.
+                    </p>
+                </div>
+                <div class="footer-cta-wrap">
+                    <a href="mailto:hello@manishgarg.com" class="footer-cta-btn" id="footerContactBtn" data-config-link="email">
+                        <span>Start a Conversation</span>
+                        <span class="footer-cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Middle / 3-Column Main Grid -->
+            <div class="footer-main-grid">
+                
+                <!-- Brand & Positioning -->
+                <div class="footer-brand-col">
+                    <a href="index.html" class="footer-brand-title">MANISH GARG</a>
+                    <p class="footer-brand-tag">Business Analytics · Decision Intelligence · AI</p>
+                    <p class="footer-brand-desc">
+                        Turning messy business questions into evidence, and evidence into decisions.
+                    </p>
+                    <div class="footer-location">
+                        <span class="loc-dot" aria-hidden="true"></span>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="footer-nav-col">
+                    <span class="footer-col-label">EXPLORE</span>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link" data-page="home">Home <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="work.html" class="footer-link active" data-page="work" aria-current="page">Work <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="method.html" class="footer-link" data-page="method">Method <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="about.html" class="footer-link" data-page="about">About <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Direct Social & Contact Tabs -->
+                <div class="footer-contact-col">
+                    <span class="footer-col-label">CONNECT</span>
+                    <ul class="footer-social-tabs">
+                        <li>
+                            <a href="https://www.linkedin.com/in/manishgarg" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="linkedin" aria-label="LinkedIn profile">
+                                <span class="social-icon">LI</span>
+                                <span class="social-name">LinkedIn</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="instagram" aria-label="Instagram profile">
+                                <span class="social-icon">IG</span>
+                                <span class="social-name">Instagram</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:hello@manishgarg.com" class="social-tab" data-config-link="email" aria-label="Direct email">
+                                <span class="social-icon">✉</span>
+                                <span class="social-name">Email</span>
+                                <span class="social-arrow" aria-hidden="true">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar / Legal & Attribution -->
+            <div class="footer-bottom-bar">
+                <span class="footer-copyright">© 2026 Manish Garg · Business Analytics & Decision Practice</span>
+                <span class="footer-credo">Built around questions, evidence and decisions.</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

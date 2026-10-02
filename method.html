@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method — Manish Garg · Analytics / Decisions / AI</title>
+    <meta name="description" content="How the work moves from question to decision. A continuous visual journey of analytical thinking: Question, Context, Data, Signal, Judgement, Decision.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..600;1,9..40,300..600&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="method">
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-name">MANISH GARG</a>
+                <span class="nav-tag">ANALYTICS / DECISIONS / AI</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="work.html" class="nav-link" data-page="work">WORK</a>
+                <a href="method.html" class="nav-link active" data-page="method" aria-current="page">METHOD</a>
+                <a href="about.html" class="nav-link" data-page="about">ABOUT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== 1. METHOD PAGE HERO ===== -->
+    <header class="method-page-hero">
+        <div class="section-container">
+            <div class="method-hero-inner" data-animate="fade-up">
+                <span class="method-hero-kicker">ANALYTICAL ARCHITECTURE</span>
+                <h1 class="method-hero-title">Method</h1>
+                <p class="method-hero-lead">
+                    How the work moves from question to decision. A business problem is not solved by simply collecting more data — it becomes clearer by systematically stripping away noise until the decision reveals itself.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== 2. CONTINUOUS SIGNAL PATH & INTERACTIVE WORKSPACE ===== -->
+    <section class="method-system-section" id="methodSystem">
+        <div class="section-container">
+            <div class="method-workspace-grid" id="methodWorkspace" data-active-stage="01">
+                
+                <!-- Left: Stage Navigation & Active Stage Detail Card -->
+                <div class="method-nav-column" data-animate="fade-up">
+                    <div class="stage-nav-header">
+                        <span class="stage-nav-kicker">THE 6-STAGE EVOLUTION</span>
+                    </div>
+
+                    <div class="method-stage-list" role="tablist" aria-label="Methodology stages">
+                        <button class="method-stage-btn active" data-stage="01" role="tab" aria-selected="true" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">01</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Question</span>
+                                <span class="stage-btn-q">What exactly are we trying to understand?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="02" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">02</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Context</span>
+                                <span class="stage-btn-q">What else affects the problem?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="03" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">03</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Data</span>
+                                <span class="stage-btn-q">What evidence do we actually have?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="04" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">04</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Signal</span>
+                                <span class="stage-btn-q">What pattern is genuinely meaningful?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="05" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">05</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Judgement</span>
+                                <span class="stage-btn-q">What does the evidence NOT tell us?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="06" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">06</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Decision</span>
+                                <span class="stage-btn-q">What could the business do next?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+                    </div>
+
+                    <!-- Active Stage Dynamic Explanation Card -->
+                    <div class="stage-detail-card" id="methodDetailCard" role="tabpanel">
+                        <span class="stage-detail-badge" id="detailBadge">STAGE 01 · PROBLEM FRAMING</span>
+                        <h3 class="stage-detail-question" id="detailQuestion">What exactly are we trying to understand?</h3>
+                        <p class="stage-detail-summary" id="detailSummary">
+                            Most analytical projects fail before spreadsheets are opened because the business starts with a vague symptom instead of a decision. We isolate the specific trade-off or mechanism that requires an answer.
+                        </p>
+                        <div class="stage-detail-meta">
+                            <div class="detail-meta-row">
+                                <span class="detail-meta-label">INPUTS</span>
+                                <span class="detail-meta-value" id="detailInputs">Stakeholder interviews · Initial business tension · Unit economics</span>
+                            </div>
+                            <div class="detail-meta-row">
+                                <span class="detail-meta-label">DELIVERABLE</span>
+                                <span class="detail-meta-value" id="detailDeliverable">Precise decision question with testable hypotheses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Large Evolving Signal Path SVG System -->
+                <div class="method-visual-column" data-animate="fade-up" data-delay="100">
+                    <div class="signal-path-stage" id="signalPathStage">
+                        
+                        <div class="path-canvas-header">
+                            <div class="canvas-title-group">
+                                <span class="canvas-title">THE SIGNAL PATH</span>
+                                <div class="canvas-live-badge">
+                                    <span class="live-pulse"></span>
+                                    <span>CONTINUOUS TRANSFORMATION</span>
+                                </div>
+                            </div>
+                            <span class="canvas-guide">Select any milestone to inspect progression</span>
+                        </div>
+
+                        <!-- Main Interactive SVG Canvas -->
+                        <svg viewBox="0 0 680 430" class="signal-path-svg" id="signalPathSvg" aria-label="Interactive signal path journey from question to decision">
+                            <defs>
+                                <linearGradient id="gradientActive" x1="0%" y1="100%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#111111"/>
+                                    <stop offset="70%" stop-color="#111111"/>
+                                    <stop offset="100%" stop-color="#BFFF00"/>
+                                </linearGradient>
+                                <filter id="glowAccent" x="-20%" y="-20%" width="140%" height="140%">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#BFFF00" flood-opacity="0.6"/>
+                                </filter>
+                            </defs>
+
+                            <!-- Background Ambient Grid Lines -->
+                            <line x1="30" y1="100" x2="650" y2="100" stroke="rgba(18,18,18,0.04)" stroke-width="1"/>
+                            <line x1="30" y1="200" x2="650" y2="200" stroke="rgba(18,18,18,0.04)" stroke-width="1"/>
+                            <line x1="30" y1="300" x2="650" y2="300" stroke="rgba(18,18,18,0.04)" stroke-width="1"/>
+
+                            <!-- STAGE 1: QUESTION (Fragmented Ray Field & Uncertainty) -->
+                            <g class="svg-stage-element svg-stage-1" id="svgStage1">
+                                <circle cx="50" cy="360" r="30" fill="none" stroke="rgba(18,18,18,0.08)" stroke-dasharray="2,2"/>
+                                <line x1="25" y1="340" x2="45" y2="355" stroke="rgba(18,18,18,0.25)" stroke-width="1.2" stroke-dasharray="2,2"/>
+                                <line x1="30" y1="380" x2="45" y2="365" stroke="rgba(18,18,18,0.25)" stroke-width="1.2" stroke-dasharray="2,2"/>
+                                <line x1="60" y1="380" x2="52" y2="365" stroke="rgba(18,18,18,0.25)" stroke-width="1.2" stroke-dasharray="2,2"/>
+                                <text x="50" y="405" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E" text-anchor="middle">AMBIGUITY</text>
+                            </g>
+
+                            <!-- STAGE 2: CONTEXT (Surrounding Boundaries & Forces) -->
+                            <g class="svg-stage-element svg-stage-2" id="svgStage2">
+                                <rect x="130" y="225" width="80" height="90" fill="rgba(18,18,18,0.02)" stroke="rgba(18,18,18,0.12)" stroke-dasharray="3,3" rx="4"/>
+                                <line x1="170" y1="205" x2="170" y2="225" stroke="#111111" stroke-width="1.5" stroke-dasharray="2,2"/>
+                                <line x1="170" y1="315" x2="170" y2="335" stroke="#111111" stroke-width="1.5" stroke-dasharray="2,2"/>
+                                <text x="170" y="348" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E" text-anchor="middle">BOUNDARIES</text>
+                            </g>
+
+                            <!-- STAGE 3: DATA (Multi-stream Tributary Inflows) -->
+                            <g class="svg-stage-element svg-stage-3" id="svgStage3">
+                                <path d="M240,380 C260,350 270,320 290,290" fill="none" class="signal-tributary" stroke-dasharray="3,3"/>
+                                <path d="M270,180 C280,220 285,260 290,290" fill="none" class="signal-tributary" stroke-dasharray="3,3"/>
+                                <circle cx="250" cy="365" r="2.5" fill="#52524E"/>
+                                <circle cx="275" cy="200" r="2.5" fill="#52524E"/>
+                                <text x="290" y="325" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E" text-anchor="middle">EVIDENCE</text>
+                            </g>
+
+                            <!-- STAGE 4: SIGNAL (Filtered Wave & Dominant Pattern) -->
+                            <g class="svg-stage-element svg-stage-4" id="svgStage4">
+                                <path d="M370,175 Q395,145 420,175 T470,175" fill="none" stroke="rgba(191,255,0,0.3)" stroke-width="4"/>
+                                <line x1="390" y1="120" x2="450" y2="120" stroke="rgba(18,18,18,0.12)" stroke-width="1"/>
+                                <text x="420" y="112" font-family="'JetBrains Mono', monospace" font-size="8" fill="#111111" text-anchor="middle" font-weight="600">SIGNAL FILTER</text>
+                            </g>
+
+                            <!-- STAGE 5: JUDGEMENT (Human Sanity Threshold & Muted False Trails) -->
+                            <g class="svg-stage-element svg-stage-5" id="svgStage5">
+                                <!-- Muted competing branch -->
+                                <path d="M530,220 C560,250 580,270 600,285" fill="none" stroke="rgba(214,69,69,0.25)" stroke-width="1.5" stroke-dasharray="2,3"/>
+                                <circle cx="600" cy="285" r="3" fill="rgba(214,69,69,0.4)"/>
+                                <line x1="530" y1="170" x2="530" y2="260" stroke="#111111" stroke-width="1.2" stroke-dasharray="2,2"/>
+                                <text x="530" y="275" font-family="'JetBrains Mono', monospace" font-size="8" fill="#52524E" text-anchor="middle">SANITY CHECK</text>
+                            </g>
+
+                            <!-- STAGE 6: DECISION (Luminous Converged Destination) -->
+                            <g class="svg-stage-element svg-stage-6" id="svgStage6">
+                                <circle cx="630" cy="95" r="28" fill="rgba(191,255,0,0.14)" filter="url(#glowAccent)"/>
+                                <polygon points="630,70 645,95 615,95" fill="#BFFF00" stroke="#111111" stroke-width="1.5"/>
+                                <text x="630" y="135" font-family="'JetBrains Mono', monospace" font-size="9" fill="#111111" text-anchor="middle" font-weight="700">DECISION</text>
+                            </g>
+
+                            <!-- MAIN CONTINUOUS PATH LINE -->
+                            <!-- Base Ghost Path -->
+                            <path d="M50,360 C110,340 130,270 170,265 C220,260 250,300 290,290 C340,280 370,180 420,175 C470,170 490,230 530,220 C570,210 590,120 630,95" 
+                                  class="signal-flow-base" id="signalFlowBase"/>
+
+                            <!-- Active Dynamic Progression Path -->
+                            <path d="M50,360 C110,340 130,270 170,265 C220,260 250,300 290,290 C340,280 370,180 420,175 C470,170 490,230 530,220 C570,210 590,120 630,95" 
+                                  class="signal-flow-active" id="signalFlowActive" stroke="url(#gradientActive)"/>
+
+                            <!-- 6 INTERACTIVE MILESTONE NODES (CLICKABLE & HOVERABLE) -->
+                            <!-- Node 1: Question -->
+                            <g class="milestone-group active" data-stage="01" id="milestoneNode1" transform="translate(50, 360)">
+                                <circle cx="0" cy="0" r="28" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="0" r="14" class="milestone-circle-base"/>
+                                <circle cx="0" cy="0" r="10" class="milestone-circle-inner"/>
+                                <text x="0" y="0" class="milestone-num">01</text>
+                                <text x="0" y="-20" class="milestone-label" text-anchor="middle">QUESTION</text>
+                            </g>
+
+                            <!-- Node 2: Context -->
+                            <g class="milestone-group" data-stage="02" id="milestoneNode2" transform="translate(170, 265)">
+                                <circle cx="0" cy="0" r="28" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="0" r="14" class="milestone-circle-base"/>
+                                <circle cx="0" cy="0" r="10" class="milestone-circle-inner"/>
+                                <text x="0" y="0" class="milestone-num">02</text>
+                                <text x="0" y="-20" class="milestone-label" text-anchor="middle">CONTEXT</text>
+                            </g>
+
+                            <!-- Node 3: Data -->
+                            <g class="milestone-group" data-stage="03" id="milestoneNode3" transform="translate(290, 290)">
+                                <circle cx="0" cy="0" r="28" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="0" r="14" class="milestone-circle-base"/>
+                                <circle cx="0" cy="0" r="10" class="milestone-circle-inner"/>
+                                <text x="0" y="0" class="milestone-num">03</text>
+                                <text x="0" y="-20" class="milestone-label" text-anchor="middle">DATA</text>
+                            </g>
+
+                            <!-- Node 4: Signal -->
+                            <g class="milestone-group" data-stage="04" id="milestoneNode4" transform="translate(420, 175)">
+                                <circle cx="0" cy="0" r="28" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="0" r="14" class="milestone-circle-base"/>
+                                <circle cx="0" cy="0" r="10" class="milestone-circle-inner"/>
+                                <text x="0" y="0" class="milestone-num">04</text>
+                                <text x="0" y="-20" class="milestone-label" text-anchor="middle">SIGNAL</text>
+                            </g>
+
+                            <!-- Node 5: Judgement -->
+                            <g class="milestone-group" data-stage="05" id="milestoneNode5" transform="translate(530, 220)">
+                                <circle cx="0" cy="0" r="28" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="0" r="14" class="milestone-circle-base"/>
+                                <circle cx="0" cy="0" r="10" class="milestone-circle-inner"/>
+                                <text x="0" y="0" class="milestone-num">05</text>
+                                <text x="0" y="-20" class="milestone-label" text-anchor="middle">JUDGEMENT</text>
+                            </g>
+
+                            <!-- Node 6: Decision -->
+                            <g class="milestone-group" data-stage="06" id="milestoneNode6" transform="translate(630, 95)">
+                                <circle cx="0" cy="16" r="30" class="milestone-hitarea" fill="transparent"/>
+                                <circle cx="0" cy="16" r="16" class="milestone-circle-base"/>
+                                <circle cx="0" cy="16" r="11" class="milestone-circle-inner"/>
+                                <text x="0" y="16" class="milestone-num">06</text>
+                                <text x="0" y="-10" class="milestone-label" text-anchor="middle">DECISION</text>
+                            </g>
+                        </svg>
+
+                    </div>
+
+                    <!-- SECOND VISUAL LAYER: NOISE TO SIGNAL TRANSFORMATION STRIP -->
+                    <div class="noise-signal-strip" id="noiseSignalStrip">
+                        <span class="noise-strip-label">NOISE → CONVERGENCE → SIGNAL</span>
+                        <div class="noise-strip-viz">
+                            <svg viewBox="0 0 340 32" class="noise-svg" aria-hidden="true">
+                                <!-- Dispersed chaotic points (Noise) -->
+                                <circle cx="15" cy="8" r="1.5" fill="rgba(18,18,18,0.2)"/>
+                                <circle cx="22" cy="22" r="1.8" fill="rgba(18,18,18,0.2)"/>
+                                <circle cx="35" cy="12" r="1.5" fill="rgba(18,18,18,0.2)"/>
+                                <circle cx="48" cy="26" r="1.5" fill="rgba(18,18,18,0.2)"/>
+                                <circle cx="60" cy="9" r="1.8" fill="rgba(18,18,18,0.2)"/>
+                                <circle cx="75" cy="18" r="1.5" fill="rgba(18,18,18,0.25)"/>
+
+                                <!-- Convergence funnel -->
+                                <circle cx="100" cy="14" r="1.8" fill="rgba(18,18,18,0.35)"/>
+                                <circle cx="115" cy="19" r="2" fill="rgba(18,18,18,0.4)"/>
+                                <circle cx="135" cy="15" r="2" fill="rgba(18,18,18,0.5)"/>
+                                <circle cx="160" cy="17" r="2.2" fill="#111111"/>
+                                <circle cx="185" cy="16" r="2.2" fill="#111111"/>
+
+                                <!-- Aligned structured vector (Signal) -->
+                                <line x1="210" y1="16" x2="310" y2="16" stroke="#111111" stroke-width="2"/>
+                                <circle cx="230" cy="16" r="2.5" fill="#111111"/>
+                                <circle cx="270" cy="16" r="3" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+                                <polygon points="310,13 322,16 310,19" fill="#111111"/>
+                            </svg>
+                        </div>
+                        <span class="noise-strip-credo">Analysis is finding what matters, not collecting more clutter.</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3. HUMAN × MACHINE CONVERGENCE SECTION ===== -->
+    <section class="hxm-convergence-section" id="hxmConvergence">
+        <div class="section-container">
+            <div class="hxm-container" data-animate="fade-up">
+                <span class="hxm-kicker">CONVERGENCE</span>
+                <h2 class="hxm-headline">Where machine intelligence meets human reasoning.</h2>
+
+                <!-- Dual Stream Convergence Visual Diagram -->
+                <div class="hxm-streams-diagram">
+                    <svg viewBox="0 0 620 140" class="hxm-diagram-svg" aria-hidden="true">
+                        <!-- Machine Stream (Top) -->
+                        <path d="M30,35 C140,35 240,40 330,65" fill="none" stroke="#111111" stroke-width="2"/>
+                        <circle cx="30" cy="35" r="4" fill="#111111"/>
+                        <circle cx="160" cy="37" r="3.5" fill="#111111"/>
+                        <text x="35" y="24" font-family="'JetBrains Mono', monospace" font-size="9" fill="#111111" font-weight="600">MACHINE INTELLIGENCE</text>
+                        <text x="35" y="48" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#52524E">Scale · Pattern Recognition · Simulation · Speed</text>
+
+                        <!-- Human Stream (Bottom) -->
+                        <path d="M30,105 C140,105 240,100 330,75" fill="none" stroke="#111111" stroke-width="2"/>
+                        <circle cx="30" cy="105" r="4" fill="#111111"/>
+                        <circle cx="160" cy="103" r="3.5" fill="#111111"/>
+                        <text x="35" y="94" font-family="'JetBrains Mono', monospace" font-size="9" fill="#111111" font-weight="600">HUMAN JUDGEMENT</text>
+                        <text x="35" y="118" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#52524E">Strategic Context · Trade-offs · Ethics · Accountability</text>
+
+                        <!-- Convergence Junction -->
+                        <circle cx="330" cy="70" r="16" fill="rgba(191,255,0,0.22)" stroke="#111111" stroke-width="1.5"/>
+                        <circle cx="330" cy="70" r="5" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+
+                        <!-- Unified Output to Decision -->
+                        <line x1="346" y1="70" x2="520" y2="70" stroke="#111111" stroke-width="3"/>
+                        <polygon points="520,64 538,70 520,76" fill="#111111"/>
+                        
+                        <text x="550" y="73" font-family="'JetBrains Mono', monospace" font-size="10" fill="#111111" font-weight="700">DECISION</text>
+                    </svg>
+                </div>
+
+                <p class="hxm-credo-text">
+                    Machine intelligence finds the signal. Human judgement decides what it means — and takes responsibility for the choice.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 4. IN PRACTICE SECTION (3 DOMAIN EXAMPLES) ===== -->
+    <section class="in-practice-section" id="inPractice">
+        <div class="section-container">
+            <div class="practice-header" data-animate="fade-up">
+                <span class="practice-kicker">IN PRACTICE</span>
+                <h2 class="practice-title">The same thinking across different problems.</h2>
+                <p class="practice-lead">
+                    Whether diagnosing customer behavior, optimizing logistics, or evaluating practical AI, the progression remains identical.
+                </p>
+            </div>
+
+            <div class="practice-grid">
+                
+                <!-- Example 1: Business Operations -->
+                <div class="practice-card" data-animate="fade-up">
+                    <span class="practice-card-tag">OPERATIONS & MARGIN</span>
+                    <h3 class="practice-card-name">A Business Problem</h3>
+                    <p class="practice-card-q">“Costs keep rising despite revenue growth.”</p>
+                    
+                    <div class="practice-card-visual" aria-hidden="true">
+                        <svg viewBox="0 0 240 44" class="practice-mini-chart">
+                            <line x1="5" y1="36" x2="235" y2="36" stroke="rgba(18,18,18,0.1)" stroke-width="1"/>
+                            <polyline points="10,32 60,26 120,20 180,14 230,8" fill="none" stroke="#111111" stroke-width="2"/>
+                            <polyline points="10,16 60,20 120,25 180,30 230,34" fill="none" stroke="#D64545" stroke-width="1.5" stroke-dasharray="3,2"/>
+                            <circle cx="230" cy="8" r="3" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+                        </svg>
+                    </div>
+
+                    <p class="practice-card-result">
+                        Dissected conflicting unit margins and distribution constraints to establish a resilient operating boundary.
+                    </p>
+                </div>
+
+                <!-- Example 2: Customer Retention -->
+                <div class="practice-card" data-animate="fade-up" data-delay="100">
+                    <span class="practice-card-tag">CUSTOMER RETENTION</span>
+                    <h3 class="practice-card-name">A Customer Problem</h3>
+                    <p class="practice-card-q">“First-time supporters aren't returning.”</p>
+                    
+                    <div class="practice-card-visual" aria-hidden="true">
+                        <svg viewBox="0 0 240 44" class="practice-mini-chart">
+                            <line x1="5" y1="36" x2="235" y2="36" stroke="rgba(18,18,18,0.1)" stroke-width="1"/>
+                            <path d="M10,10 C50,12 80,30 130,32 C180,33 210,34 230,35" fill="none" stroke="#111111" stroke-width="2"/>
+                            <line x1="80" y1="10" x2="80" y2="36" stroke="#D64545" stroke-width="1.2" stroke-dasharray="2,2"/>
+                            <circle cx="80" cy="30" r="3" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+                        </svg>
+                    </div>
+
+                    <p class="practice-card-result">
+                        Audited 55,621 supporter journeys to pinpoint the critical 90-day drop-off window and restructure stewardship.
+                    </p>
+                </div>
+
+                <!-- Example 3: AI & Unstructured Data -->
+                <div class="practice-card" data-animate="fade-up" data-delay="200">
+                    <span class="practice-card-tag">DECISION AI & NLP</span>
+                    <h3 class="practice-card-name">An AI Question</h3>
+                    <p class="practice-card-q">“Where does intelligent automation actually help?”</p>
+                    
+                    <div class="practice-card-visual" aria-hidden="true">
+                        <svg viewBox="0 0 240 44" class="practice-mini-chart">
+                            <line x1="5" y1="36" x2="235" y2="36" stroke="rgba(18,18,18,0.1)" stroke-width="1"/>
+                            <rect x="20" y="24" width="14" height="12" fill="rgba(18,18,18,0.2)"/>
+                            <rect x="50" y="14" width="14" height="22" fill="rgba(18,18,18,0.2)"/>
+                            <rect x="80" y="6" width="14" height="30" fill="#BFFF00" stroke="#111111" stroke-width="1.2"/>
+                            <rect x="110" y="18" width="14" height="18" fill="rgba(18,18,18,0.2)"/>
+                            <rect x="140" y="10" width="14" height="26" fill="#111111"/>
+                            <rect x="170" y="22" width="14" height="14" fill="rgba(18,18,18,0.2)"/>
+                            <rect x="200" y="28" width="14" height="8" fill="rgba(18,18,18,0.2)"/>
+                        </svg>
+                    </div>
+
+                    <p class="practice-card-result">
+                        Extracted latent consumer anxiety patterns from thousands of unstructured reviews while maintaining human validation.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 5. BRIDGE SECTION: FROM THINKING TO DOING ===== -->
+    <section class="method-bridge-section" id="methodBridge">
+        <div class="section-container">
+            <div class="bridge-card" data-animate="fade-up">
+                <span class="bridge-kicker">APPLICATION</span>
+                <h2 class="bridge-title">From thinking to doing.</h2>
+                <p class="bridge-lead">The method matters when it helps someone decide what to do next.</p>
+                
+                <div class="bridge-progression" aria-label="Progression from thinking to doing">
+                    <div class="progression-step">
+                        <span class="step-num">01</span>
+                        <span class="step-label">QUESTION</span>
+                    </div>
+                    <span class="progression-arrow" aria-hidden="true">→</span>
+                    <div class="progression-step">
+                        <span class="step-num">02</span>
+                        <span class="step-label">UNDERSTAND</span>
+                    </div>
+                    <span class="progression-arrow" aria-hidden="true">→</span>
+                    <div class="progression-step">
+                        <span class="step-num">03</span>
+                        <span class="step-label">DECIDE</span>
+                    </div>
+                    <span class="progression-arrow" aria-hidden="true">→</span>
+                    <div class="progression-step step-act">
+                        <span class="step-num">04</span>
+                        <span class="step-label">ACT</span>
+                    </div>
+                </div>
+
+                <div class="bridge-cta-wrap">
+                    <a href="work.html" class="cta-primary">
+                        <span>See The Work in Action</span>
+                        <span class="cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 6. SHARED FOOTER / LOWER NAVIGATION (CONSISTENT ACROSS ALL PAGES) ===== -->
+    <footer class="site-footer" id="siteFooter" role="contentinfo">
+        <div class="footer-container">
+            
+            <!-- Top Hero Banner / Closing Call to Action -->
+            <div class="footer-hero" data-animate="fade-up">
+                <div class="footer-headline-group">
+                    <span class="footer-kicker">NEXT STEP</span>
+                    <h2 class="footer-headline">Have a problem worth exploring?</h2>
+                    <p class="footer-lead">
+                        Curious about business questions. Grounded in evidence. Ready to talk.
+                    </p>
+                </div>
+                <div class="footer-cta-wrap">
+                    <a href="mailto:hello@manishgarg.com" class="footer-cta-btn" id="footerContactBtn" data-config-link="email">
+                        <span>Start a Conversation</span>
+                        <span class="footer-cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Middle / 3-Column Main Grid -->
+            <div class="footer-main-grid">
+                
+                <!-- Brand & Positioning -->
+                <div class="footer-brand-col">
+                    <a href="index.html" class="footer-brand-title">MANISH GARG</a>
+                    <p class="footer-brand-tag">Business Analytics · Decision Intelligence · AI</p>
+                    <p class="footer-brand-desc">
+                        Turning messy business questions into evidence, and evidence into decisions.
+                    </p>
+                    <div class="footer-location">
+                        <span class="loc-dot" aria-hidden="true"></span>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="footer-nav-col">
+                    <span class="footer-col-label">EXPLORE</span>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link" data-page="home">Home <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="work.html" class="footer-link" data-page="work">Work <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="method.html" class="footer-link active" data-page="method" aria-current="page">Method <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="about.html" class="footer-link" data-page="about">About <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Direct Social & Contact Tabs -->
+                <div class="footer-contact-col">
+                    <span class="footer-col-label">CONNECT</span>
+                    <ul class="footer-social-tabs">
+                        <li>
+                            <a href="https://www.linkedin.com/in/manishgarg" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="linkedin" aria-label="LinkedIn profile">
+                                <span class="social-icon">LI</span>
+                                <span class="social-name">LinkedIn</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="instagram" aria-label="Instagram profile">
+                                <span class="social-icon">IG</span>
+                                <span class="social-name">Instagram</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:hello@manishgarg.com" class="social-tab" data-config-link="email" aria-label="Direct email">
+                                <span class="social-icon">✉</span>
+                                <span class="social-name">Email</span>
+                                <span class="social-arrow" aria-hidden="true">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar / Legal & Attribution -->
+            <div class="footer-bottom-bar">
+                <span class="footer-copyright">© 2026 Manish Garg · Business Analytics & Decision Practice</span>
+                <span class="footer-credo">Built around questions, evidence and decisions.</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
