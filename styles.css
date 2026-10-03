@@ -895,13 +895,20 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
    METHOD PAGE — CONTINUOUS SIGNAL PATH & ARCHITECTURE
    ============================================================= */
 .method-page-hero{
-    padding-top:calc(5.5rem + 4vh);
+    padding-top:calc(5.5rem + 2vh);
     padding-bottom:5vh;
     border-bottom:1px solid var(--ink-08);
 }
 
-.method-hero-inner{
-    max-width:var(--narrow);
+.method-hero-grid{
+    display:grid;
+    grid-template-columns:48% 52%;
+    gap:clamp(2rem, 3.5vw, 4rem);
+    align-items:center;
+}
+
+.method-hero-editorial{
+    max-width:580px;
 }
 
 .method-hero-kicker{
@@ -926,32 +933,39 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 }
 
 .method-hero-lead{
-    font-size:clamp(1rem, 1.3vw, 1.15rem);
+    font-size:clamp(1rem, 1.25vw, 1.15rem);
     color:var(--muted);
     line-height:1.65;
-    max-width:640px;
+    max-width:520px;
+}
+
+.method-hero-visual{
+    width:100%;
 }
 
 /* --- Main Interactive Method Workspace --- */
 .method-system-section{
-    padding:7vh 0 9vh;
+    padding:6vh 0 8vh;
     border-bottom:1px solid var(--ink-08);
+}
+
+.method-system-section .section-container{
+    padding-top:0;
+    padding-bottom:0;
 }
 
 .method-workspace-grid{
     display:grid;
-    grid-template-columns:360px 1fr;
-    gap:clamp(2rem, 4vw, 4.5rem);
+    grid-template-columns:minmax(320px, 40%) 1fr;
+    gap:clamp(2rem, 3.5vw, 3.8rem);
     align-items:start;
 }
 
-/* Left: Interactive Stage Selector & Detail Card */
+/* Left: Interactive Stage Selector */
 .method-nav-column{
     display:flex;
     flex-direction:column;
-    gap:1.6rem;
-    position:sticky;
-    top:6rem;
+    gap:1rem;
 }
 
 .stage-nav-header{
@@ -971,15 +985,15 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 .method-stage-list{
     display:flex;
     flex-direction:column;
-    gap:.55rem;
+    gap:.45rem;
 }
 
 .method-stage-btn{
     display:flex;
     align-items:center;
-    gap:1rem;
-    padding:1rem 1.2rem;
-    background:rgba(255,255,255,0.4);
+    gap:.9rem;
+    padding:.85rem 1.15rem;
+    background:rgba(255,255,255,0.45);
     border:1px solid var(--ink-08);
     border-radius:3px;
     cursor:pointer;
@@ -1050,14 +1064,28 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     box-shadow:0 0 8px var(--accent);
 }
 
-/* Detail Card Below Selector */
+/* Right Column: Stage Detail + Noise Transformation Strip */
+.method-detail-column{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    margin-top:2.35rem;
+    width:100%;
+    min-width:0;
+}
+
+/* Detail Card Beside Selector */
 .stage-detail-card{
     background:#FAF9F5;
     border:1px solid var(--ink-08);
     border-radius:4px;
-    padding:1.6rem 1.8rem;
+    padding:1.5rem 1.8rem;
     box-shadow:0 8px 24px rgba(0,0,0,0.025);
     transition:opacity .25s ease, transform .25s ease;
+    align-self:stretch;
+    height:fit-content;
+    margin-top:0;
+    width:100%;
 }
 
 .stage-detail-badge{
@@ -1072,7 +1100,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     border-radius:2px;
     font-weight:600;
     display:inline-block;
-    margin-bottom:.8rem;
+    margin-bottom:.75rem;
 }
 
 .stage-detail-question{
@@ -1081,22 +1109,22 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     font-weight:400;
     color:var(--ink);
     line-height:1.25;
-    margin-bottom:.8rem;
+    margin-bottom:.75rem;
 }
 
 .stage-detail-summary{
     font-size:.88rem;
     color:var(--muted);
     line-height:1.6;
-    margin-bottom:1.2rem;
+    margin-bottom:1.1rem;
 }
 
 .stage-detail-meta{
     border-top:1px solid var(--ink-06);
-    padding-top:1rem;
+    padding-top:.9rem;
     display:flex;
     flex-direction:column;
-    gap:.65rem;
+    gap:.6rem;
 }
 
 .detail-meta-row{
@@ -1120,18 +1148,11 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     color:var(--ink);
 }
 
-/* Right: Visual Canvas & Path System */
-.method-visual-column{
-    display:flex;
-    flex-direction:column;
-    gap:1.8rem;
-}
-
 .signal-path-stage{
     background:#FAF9F5;
     border:1px solid var(--ink-08);
     border-radius:6px;
-    padding:2.2rem 2.4rem;
+    padding:1.8rem 2rem;
     box-shadow:0 12px 36px rgba(0,0,0,0.035);
     position:relative;
     overflow:hidden;
@@ -1292,46 +1313,182 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     fill:var(--ink);
 }
 
+/* Stage 6 Luminous Destination Glow */
+.svg-stage-6{
+    opacity:.35;
+    transition:opacity .4s ease;
+}
+
+[data-active-stage="06"] .svg-stage-6{
+    opacity:1;
+}
+
+[data-active-stage="06"] .svg-stage-6 circle{
+    animation:glowPulse 2s infinite ease-in-out;
+}
+
+@keyframes glowPulse{
+    0%,100%{opacity:.95}
+    50%{opacity:.45}
+}
+
 /* Second Visual Layer: Noise -> Signal Strip */
 .noise-signal-strip{
     background:#FAF9F5;
     border:1px solid var(--ink-08);
     border-radius:4px;
-    padding:1.2rem 1.6rem;
+    padding:1rem 1.4rem;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:1.5rem;
-    flex-wrap:wrap;
+    gap:1rem 1.3rem;
+    width:100%;
+    box-shadow:0 6px 20px rgba(0,0,0,0.02);
 }
 
 .noise-strip-label{
     font-family:var(--mono);
-    font-size:.62rem;
+    font-size:.6rem;
     letter-spacing:.12em;
     text-transform:uppercase;
     color:var(--light);
     font-weight:600;
+    white-space:nowrap;
+    flex-shrink:0;
 }
 
 .noise-strip-viz{
-    flex:1;
-    min-width:260px;
-    height:36px;
+    flex:1 1 auto;
+    min-width:130px;
+    max-width:340px;
+    height:32px;
     display:flex;
     align-items:center;
 }
 
 .noise-svg{
     width:100%;
-    height:32px;
+    height:30px;
 }
 
+.noise-strip-thought,
 .noise-strip-credo{
-    font-family:var(--mono);
-    font-size:.68rem;
+    font-family:var(--serif);
+    font-size:.71rem;
+    line-height:1.28;
     color:var(--muted);
     font-style:italic;
+    flex-shrink:0;
+    text-align:right;
+    max-width:145px;
+    letter-spacing:-.01em;
+}
+
+/* --- Noise -> Convergence -> Signal Motion --- */
+/* Dots travel from LEFT -> RIGHT toward convergence, merge into arrow, and resolve into clean signal line */
+.noise-dot{
+    will-change:transform, opacity;
+}
+
+.noise-dot-1{animation:dotFlow1 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:0s;}
+.noise-dot-2{animation:dotFlow2 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:.42s;}
+.noise-dot-3{animation:dotFlow3 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:.84s;}
+.noise-dot-4{animation:dotFlow4 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:1.26s;}
+.noise-dot-5{animation:dotFlow5 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:1.68s;}
+.noise-dot-6{animation:dotFlow6 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:2.1s;}
+.noise-dot-7{animation:dotFlow7 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:2.52s;}
+.noise-dot-8{animation:dotFlow8 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:2.94s;}
+.noise-dot-9{animation:dotFlow9 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:3.36s;}
+.noise-dot-10{animation:dotFlow10 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:3.78s;}
+.noise-dot-11{animation:dotFlow11 4.8s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; animation-delay:4.2s;}
+
+@keyframes dotFlow1{
+    0%{transform:translate(0px, -1px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(150px, 4px);opacity:.75}
+    84%{transform:translate(273px, 8px);opacity:.85}
+    94%{transform:translate(293px, 8px);opacity:.2}
+    100%{transform:translate(293px, 8px);opacity:0}
+}
+@keyframes dotFlow2{
+    0%{transform:translate(-2px, 2px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(146px, -3px);opacity:.75}
+    84%{transform:translate(266px, -6px);opacity:.85}
+    94%{transform:translate(286px, -6px);opacity:.2}
+    100%{transform:translate(286px, -6px);opacity:0}
+}
+@keyframes dotFlow3{
+    0%{transform:translate(-10px, -3px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(137px, 1px);opacity:.75}
+    84%{transform:translate(253px, 4px);opacity:.85}
+    94%{transform:translate(273px, 4px);opacity:.2}
+    100%{transform:translate(273px, 4px);opacity:0}
+}
+@keyframes dotFlow4{
+    0%{transform:translate(-18px, -1px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(122px, -6px);opacity:.75}
+    84%{transform:translate(240px, -10px);opacity:.85}
+    94%{transform:translate(260px, -10px);opacity:.2}
+    100%{transform:translate(260px, -10px);opacity:0}
+}
+@keyframes dotFlow5{
+    0%{transform:translate(-25px, -2px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(115px, 3px);opacity:.75}
+    84%{transform:translate(228px, 7px);opacity:.85}
+    94%{transform:translate(248px, 7px);opacity:.2}
+    100%{transform:translate(248px, 7px);opacity:0}
+}
+@keyframes dotFlow6{
+    0%{transform:translate(-47px, 3px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(91px, 0px);opacity:.75}
+    84%{transform:translate(213px, -2px);opacity:.85}
+    94%{transform:translate(233px, -2px);opacity:.2}
+    100%{transform:translate(233px, -2px);opacity:0}
+}
+@keyframes dotFlow7{
+    0%{transform:translate(-78px, -4px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(74px, 0px);opacity:.75}
+    84%{transform:translate(188px, 2px);opacity:.85}
+    94%{transform:translate(208px, 2px);opacity:.2}
+    100%{transform:translate(208px, 2px);opacity:0}
+}
+@keyframes dotFlow8{
+    0%{transform:translate(-83px, 3px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(54px, -1px);opacity:.75}
+    84%{transform:translate(173px, -3px);opacity:.85}
+    94%{transform:translate(193px, -3px);opacity:.2}
+    100%{transform:translate(193px, -3px);opacity:0}
+}
+@keyframes dotFlow9{
+    0%{transform:translate(-117px, -4px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(41px, 0px);opacity:.75}
+    84%{transform:translate(153px, 1px);opacity:.85}
+    94%{transform:translate(173px, 1px);opacity:.2}
+    100%{transform:translate(173px, 1px);opacity:0}
+}
+@keyframes dotFlow10{
+    0%{transform:translate(-122px, 1px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(11px, 0px);opacity:.75}
+    84%{transform:translate(128px, -1px);opacity:.85}
+    94%{transform:translate(148px, -1px);opacity:.2}
+    100%{transform:translate(148px, -1px);opacity:0}
+}
+@keyframes dotFlow11{
+    0%{transform:translate(-159px, -1px);opacity:0}
+    12%{opacity:.6}
+    60%{transform:translate(-12px, 0px);opacity:.75}
+    84%{transform:translate(103px, 0px);opacity:.85}
+    94%{transform:translate(123px, 0px);opacity:.2}
+    100%{transform:translate(123px, 0px);opacity:0}
 }
 
 /* --- Human × Machine Convergence Section --- */
@@ -3000,6 +3157,23 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     .about-layers-index{position:static}
     .about-body{grid-template-columns:1fr}
     .hxm-grid{gap:2rem}
+    .method-hero-grid{
+        grid-template-columns:1fr;
+        gap:2.5rem;
+    }
+    .method-hero-editorial{
+        max-width:100%;
+    }
+    .method-workspace-grid{
+        grid-template-columns:1fr;
+        gap:2rem;
+    }
+    .method-detail-column{
+        margin-top:0;
+    }
+    .stage-detail-card{
+        margin-top:0;
+    }
     .hide-mobile{display:none}
 }
 
@@ -3115,6 +3289,28 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     .stage{padding:1.5rem 0;gap:.8rem}
     .stage::before{left:-2.2rem}
 
+    .noise-signal-strip{
+        flex-wrap:wrap;
+        gap:.45rem .8rem;
+        padding:.85rem 1.1rem;
+    }
+    .noise-strip-label{
+        order:1;
+    }
+    .noise-strip-thought,
+    .noise-strip-credo{
+        order:2;
+        font-size:.66rem;
+        line-height:1.24;
+        max-width:130px;
+    }
+    .noise-strip-viz{
+        order:3;
+        flex:1 1 100%;
+        max-width:100%;
+        height:24px;
+    }
+
     .hxm-grid{grid-template-columns:1fr;gap:2rem}
     .hxm-center{order:3}
 
@@ -3166,4 +3362,5 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     .hero-h1,.hero-h2,.hero-scroll-cue{opacity:1!important;transform:none!important;animation:none!important}
     .scroll-pulse-bar{animation:none!important;transform:scaleY(.4)}
     .landscape{transition:none!important}
+    .noise-dot{animation:none!important;transform:none!important;opacity:1!important}
 }

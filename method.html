@@ -33,107 +33,21 @@
     </nav>
 
     <!-- ===== 1. METHOD PAGE HERO ===== -->
-    <header class="method-page-hero">
+    <header class="method-page-hero" id="methodHero">
         <div class="section-container">
-            <div class="method-hero-inner" data-animate="fade-up">
-                <span class="method-hero-kicker">ANALYTICAL ARCHITECTURE</span>
-                <h1 class="method-hero-title">Method</h1>
-                <p class="method-hero-lead">
-                    How the work moves from question to decision. A business problem is not solved by simply collecting more data — it becomes clearer by systematically stripping away noise until the decision reveals itself.
-                </p>
-            </div>
-        </div>
-    </header>
-
-    <!-- ===== 2. CONTINUOUS SIGNAL PATH & INTERACTIVE WORKSPACE ===== -->
-    <section class="method-system-section" id="methodSystem">
-        <div class="section-container">
-            <div class="method-workspace-grid" id="methodWorkspace" data-active-stage="01">
+            <div class="method-hero-grid">
                 
-                <!-- Left: Stage Navigation & Active Stage Detail Card -->
-                <div class="method-nav-column" data-animate="fade-up">
-                    <div class="stage-nav-header">
-                        <span class="stage-nav-kicker">THE 6-STAGE EVOLUTION</span>
-                    </div>
-
-                    <div class="method-stage-list" role="tablist" aria-label="Methodology stages">
-                        <button class="method-stage-btn active" data-stage="01" role="tab" aria-selected="true" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">01</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Question</span>
-                                <span class="stage-btn-q">What exactly are we trying to understand?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-
-                        <button class="method-stage-btn" data-stage="02" role="tab" aria-selected="false" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">02</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Context</span>
-                                <span class="stage-btn-q">What else affects the problem?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-
-                        <button class="method-stage-btn" data-stage="03" role="tab" aria-selected="false" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">03</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Data</span>
-                                <span class="stage-btn-q">What evidence do we actually have?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-
-                        <button class="method-stage-btn" data-stage="04" role="tab" aria-selected="false" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">04</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Signal</span>
-                                <span class="stage-btn-q">What pattern is genuinely meaningful?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-
-                        <button class="method-stage-btn" data-stage="05" role="tab" aria-selected="false" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">05</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Judgement</span>
-                                <span class="stage-btn-q">What does the evidence NOT tell us?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-
-                        <button class="method-stage-btn" data-stage="06" role="tab" aria-selected="false" aria-controls="methodDetailCard">
-                            <span class="stage-btn-num">06</span>
-                            <div class="stage-btn-text">
-                                <span class="stage-btn-name">Decision</span>
-                                <span class="stage-btn-q">What could the business do next?</span>
-                            </div>
-                            <span class="stage-btn-indicator" aria-hidden="true"></span>
-                        </button>
-                    </div>
-
-                    <!-- Active Stage Dynamic Explanation Card -->
-                    <div class="stage-detail-card" id="methodDetailCard" role="tabpanel">
-                        <span class="stage-detail-badge" id="detailBadge">STAGE 01 · PROBLEM FRAMING</span>
-                        <h3 class="stage-detail-question" id="detailQuestion">What exactly are we trying to understand?</h3>
-                        <p class="stage-detail-summary" id="detailSummary">
-                            Most analytical projects fail before spreadsheets are opened because the business starts with a vague symptom instead of a decision. We isolate the specific trade-off or mechanism that requires an answer.
-                        </p>
-                        <div class="stage-detail-meta">
-                            <div class="detail-meta-row">
-                                <span class="detail-meta-label">INPUTS</span>
-                                <span class="detail-meta-value" id="detailInputs">Stakeholder interviews · Initial business tension · Unit economics</span>
-                            </div>
-                            <div class="detail-meta-row">
-                                <span class="detail-meta-label">DELIVERABLE</span>
-                                <span class="detail-meta-value" id="detailDeliverable">Precise decision question with testable hypotheses</span>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Left: Method Introduction (45-50%) -->
+                <div class="method-hero-editorial" data-animate="fade-up">
+                    <span class="method-hero-kicker">ANALYTICAL ARCHITECTURE</span>
+                    <h1 class="method-hero-title">Method</h1>
+                    <p class="method-hero-lead">
+                        How the work moves from question to decision. A business problem is not solved by simply collecting more data — it becomes clearer by systematically stripping away noise until the decision reveals itself.
+                    </p>
                 </div>
 
-                <!-- Right: Large Evolving Signal Path SVG System -->
-                <div class="method-visual-column" data-animate="fade-up" data-delay="100">
+                <!-- Right: Existing Signal Path Visual (40-45%) -->
+                <div class="method-hero-visual" data-animate="fade-up" data-delay="100">
                     <div class="signal-path-stage" id="signalPathStage">
                         
                         <div class="path-canvas-header">
@@ -280,37 +194,130 @@
                         </svg>
 
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== 2. CONTINUOUS SIGNAL PATH & INTERACTIVE WORKSPACE ===== -->
+    <section class="method-system-section" id="methodSystem">
+        <div class="section-container">
+            <div class="method-workspace-grid" id="methodWorkspace" data-active-stage="01">
+                
+                <!-- Left: Stage Navigation & Active Stage Detail Card -->
+                <div class="method-nav-column" data-animate="fade-up">
+                    <div class="stage-nav-header">
+                        <span class="stage-nav-kicker">THE 6-STAGE EVOLUTION</span>
+                    </div>
+
+                    <div class="method-stage-list" role="tablist" aria-label="Methodology stages">
+                        <button class="method-stage-btn active" data-stage="01" role="tab" aria-selected="true" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">01</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Question</span>
+                                <span class="stage-btn-q">What exactly are we trying to understand?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="02" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">02</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Context</span>
+                                <span class="stage-btn-q">What else affects the problem?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="03" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">03</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Data</span>
+                                <span class="stage-btn-q">What evidence do we actually have?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="04" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">04</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Signal</span>
+                                <span class="stage-btn-q">What pattern is genuinely meaningful?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="05" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">05</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Judgement</span>
+                                <span class="stage-btn-q">What does the evidence NOT tell us?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="method-stage-btn" data-stage="06" role="tab" aria-selected="false" aria-controls="methodDetailCard">
+                            <span class="stage-btn-num">06</span>
+                            <div class="stage-btn-text">
+                                <span class="stage-btn-name">Decision</span>
+                                <span class="stage-btn-q">What could the business do next?</span>
+                            </div>
+                            <span class="stage-btn-indicator" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Active Stage Detail & Transformation Strip Column -->
+                <div class="method-detail-column">
+                    <!-- Active Stage Dynamic Explanation Card -->
+                    <div class="stage-detail-card" id="methodDetailCard" role="tabpanel">
+                        <span class="stage-detail-badge" id="detailBadge">STAGE 01 · PROBLEM FRAMING</span>
+                        <h3 class="stage-detail-question" id="detailQuestion">What exactly are we trying to understand?</h3>
+                        <p class="stage-detail-summary" id="detailSummary">
+                            Most analytical projects fail before spreadsheets are opened because the business starts with a vague symptom instead of a decision. We isolate the specific trade-off or mechanism that requires an answer.
+                        </p>
+                        <div class="stage-detail-meta">
+                            <div class="detail-meta-row">
+                                <span class="detail-meta-label">INPUTS</span>
+                                <span class="detail-meta-value" id="detailInputs">Stakeholder interviews · Initial business tension · Unit economics</span>
+                            </div>
+                            <div class="detail-meta-row">
+                                <span class="detail-meta-label">DELIVERABLE</span>
+                                <span class="detail-meta-value" id="detailDeliverable">Precise decision question with testable hypotheses</span>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- SECOND VISUAL LAYER: NOISE TO SIGNAL TRANSFORMATION STRIP -->
                     <div class="noise-signal-strip" id="noiseSignalStrip">
                         <span class="noise-strip-label">NOISE → CONVERGENCE → SIGNAL</span>
                         <div class="noise-strip-viz">
-                            <svg viewBox="0 0 340 32" class="noise-svg" aria-hidden="true">
+                            <svg viewBox="0 0 430 32" class="noise-svg" aria-hidden="true">
                                 <!-- Dispersed chaotic points (Noise) -->
-                                <circle cx="15" cy="8" r="1.5" fill="rgba(18,18,18,0.2)"/>
-                                <circle cx="22" cy="22" r="1.8" fill="rgba(18,18,18,0.2)"/>
-                                <circle cx="35" cy="12" r="1.5" fill="rgba(18,18,18,0.2)"/>
-                                <circle cx="48" cy="26" r="1.5" fill="rgba(18,18,18,0.2)"/>
-                                <circle cx="60" cy="9" r="1.8" fill="rgba(18,18,18,0.2)"/>
-                                <circle cx="75" cy="18" r="1.5" fill="rgba(18,18,18,0.25)"/>
+                                <circle cx="15" cy="8" r="1.5" fill="rgba(18,18,18,0.2)" class="noise-dot noise-dot-1"/>
+                                <circle cx="22" cy="22" r="1.8" fill="rgba(18,18,18,0.2)" class="noise-dot noise-dot-2"/>
+                                <circle cx="35" cy="12" r="1.5" fill="rgba(18,18,18,0.2)" class="noise-dot noise-dot-3"/>
+                                <circle cx="48" cy="26" r="1.5" fill="rgba(18,18,18,0.2)" class="noise-dot noise-dot-4"/>
+                                <circle cx="60" cy="9" r="1.8" fill="rgba(18,18,18,0.2)" class="noise-dot noise-dot-5"/>
+                                <circle cx="75" cy="18" r="1.5" fill="rgba(18,18,18,0.25)" class="noise-dot noise-dot-6"/>
 
                                 <!-- Convergence funnel -->
-                                <circle cx="100" cy="14" r="1.8" fill="rgba(18,18,18,0.35)"/>
-                                <circle cx="115" cy="19" r="2" fill="rgba(18,18,18,0.4)"/>
-                                <circle cx="135" cy="15" r="2" fill="rgba(18,18,18,0.5)"/>
-                                <circle cx="160" cy="17" r="2.2" fill="#111111"/>
-                                <circle cx="185" cy="16" r="2.2" fill="#111111"/>
+                                <circle cx="100" cy="14" r="1.8" fill="rgba(18,18,18,0.35)" class="noise-dot noise-dot-7"/>
+                                <circle cx="115" cy="19" r="2" fill="rgba(18,18,18,0.4)" class="noise-dot noise-dot-8"/>
+                                <circle cx="135" cy="15" r="2" fill="rgba(18,18,18,0.5)" class="noise-dot noise-dot-9"/>
+                                <circle cx="160" cy="17" r="2.2" fill="#111111" class="noise-dot noise-dot-10"/>
+                                <circle cx="185" cy="16" r="2.2" fill="#111111" class="noise-dot noise-dot-11"/>
 
-                                <!-- Aligned structured vector (Signal) -->
-                                <line x1="210" y1="16" x2="310" y2="16" stroke="#111111" stroke-width="2"/>
-                                <circle cx="230" cy="16" r="2.5" fill="#111111"/>
-                                <circle cx="270" cy="16" r="3" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
-                                <polygon points="310,13 322,16 310,19" fill="#111111"/>
+                                <!-- Aligned structured vector (Signal) - Static on the right -->
+                                <line x1="275" y1="16" x2="395" y2="16" stroke="#111111" stroke-width="2.5"/>
+                                <circle cx="310" cy="16" r="2.8" fill="#111111"/>
+                                <circle cx="355" cy="16" r="3.5" fill="#BFFF00" stroke="#111111" stroke-width="1"/>
+                                <polygon points="395,12 409,16 395,20" fill="#111111"/>
                             </svg>
                         </div>
-                        <span class="noise-strip-credo">Analysis is finding what matters, not collecting more clutter.</span>
+                        <span class="noise-strip-thought">A clearer signal should<br>change what happens next.</span>
                     </div>
-
                 </div>
 
             </div>

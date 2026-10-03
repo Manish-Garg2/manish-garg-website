@@ -487,8 +487,8 @@
         var workspace = document.getElementById('methodWorkspace');
         if (!workspace) return;
 
-        var stageButtons = workspace.querySelectorAll('.method-stage-btn');
-        var milestoneNodes = workspace.querySelectorAll('.milestone-group');
+        var stageButtons = document.querySelectorAll('.method-stage-btn');
+        var milestoneNodes = document.querySelectorAll('.milestone-group');
         var card = document.getElementById('methodDetailCard');
         var badge = document.getElementById('detailBadge');
         var question = document.getElementById('detailQuestion');
@@ -496,6 +496,7 @@
         var inputs = document.getElementById('detailInputs');
         var deliverable = document.getElementById('detailDeliverable');
         var activePath = document.getElementById('signalFlowActive');
+        var signalStage = document.getElementById('signalPathStage');
 
         var STAGE_STROKE_OFFSETS = {
             '01': 0.15,
@@ -516,7 +517,9 @@
 
             currentActiveStage = stageId;
 
-            workspace.setAttribute('data-active-stage', stageId);
+            if (workspace) workspace.setAttribute('data-active-stage', stageId);
+            if (signalStage) signalStage.setAttribute('data-active-stage', stageId);
+            document.documentElement.setAttribute('data-active-stage', stageId);
 
             stageButtons.forEach(function (btn) {
                 var isMatch = btn.getAttribute('data-stage') === stageId;
