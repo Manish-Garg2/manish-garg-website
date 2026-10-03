@@ -1297,7 +1297,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     background:#FAF9F5;
     border:1px solid var(--ink-08);
     border-radius:6px;
-    padding:1.35rem 1.8rem;
+    padding:1.15rem 1.6rem;
     box-shadow:0 12px 36px rgba(0,0,0,0.035);
     position:relative;
     overflow:hidden;
@@ -1307,11 +1307,11 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding-bottom:.85rem;
+    padding-bottom:.65rem;
     border-bottom:1px solid var(--ink-04);
-    margin-bottom:.85rem;
+    margin-bottom:.65rem;
     flex-wrap:wrap;
-    gap:.8rem;
+    gap:.6rem;
 }
 
 .canvas-title-group{
@@ -1364,7 +1364,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 .signal-path-svg{
     width:100%;
     height:auto;
-    min-height:335px;
+    min-height:285px;
     display:block;
 }
 
@@ -1437,8 +1437,8 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 .milestone-num{
     font-family:var(--mono);
-    font-size:11.5px;
-    font-weight:600;
+    font-size:13px;
+    font-weight:700;
     fill:var(--light);
     text-anchor:middle;
     dominant-baseline:central;
@@ -1447,8 +1447,8 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 .milestone-label{
     font-family:var(--mono);
-    font-size:10.5px;
-    font-weight:600;
+    font-size:12px;
+    font-weight:700;
     fill:var(--light);
     letter-spacing:.085em;
     transition:fill .3s;
@@ -1564,90 +1564,90 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 @keyframes dotFlow1{
     0%{transform:translate(0px, -1px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(150px, 4px);opacity:.75}
-    84%{transform:translate(273px, 8px);opacity:.85}
-    94%{transform:translate(293px, 8px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(150px, 4px);opacity:.95}
+    84%{transform:translate(273px, 8px);opacity:1}
+    94%{transform:translate(293px, 8px);opacity:.3}
     100%{transform:translate(293px, 8px);opacity:0}
 }
 @keyframes dotFlow2{
     0%{transform:translate(-2px, 2px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(146px, -3px);opacity:.75}
-    84%{transform:translate(266px, -6px);opacity:.85}
-    94%{transform:translate(286px, -6px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(146px, -3px);opacity:.95}
+    84%{transform:translate(266px, -6px);opacity:1}
+    94%{transform:translate(286px, -6px);opacity:.3}
     100%{transform:translate(286px, -6px);opacity:0}
 }
 @keyframes dotFlow3{
     0%{transform:translate(-10px, -3px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(137px, 1px);opacity:.75}
-    84%{transform:translate(253px, 4px);opacity:.85}
-    94%{transform:translate(273px, 4px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(137px, 1px);opacity:.95}
+    84%{transform:translate(253px, 4px);opacity:1}
+    94%{transform:translate(273px, 4px);opacity:.3}
     100%{transform:translate(273px, 4px);opacity:0}
 }
 @keyframes dotFlow4{
     0%{transform:translate(-18px, -1px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(122px, -6px);opacity:.75}
-    84%{transform:translate(240px, -10px);opacity:.85}
-    94%{transform:translate(260px, -10px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(122px, -6px);opacity:.95}
+    84%{transform:translate(240px, -10px);opacity:1}
+    94%{transform:translate(260px, -10px);opacity:.3}
     100%{transform:translate(260px, -10px);opacity:0}
 }
 @keyframes dotFlow5{
     0%{transform:translate(-25px, -2px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(115px, 3px);opacity:.75}
-    84%{transform:translate(228px, 7px);opacity:.85}
-    94%{transform:translate(248px, 7px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(115px, 3px);opacity:.95}
+    84%{transform:translate(228px, 7px);opacity:1}
+    94%{transform:translate(248px, 7px);opacity:.3}
     100%{transform:translate(248px, 7px);opacity:0}
 }
 @keyframes dotFlow6{
     0%{transform:translate(-47px, 3px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(91px, 0px);opacity:.75}
-    84%{transform:translate(213px, -2px);opacity:.85}
-    94%{transform:translate(233px, -2px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(91px, 0px);opacity:.95}
+    84%{transform:translate(213px, -2px);opacity:1}
+    94%{transform:translate(233px, -2px);opacity:.3}
     100%{transform:translate(233px, -2px);opacity:0}
 }
 @keyframes dotFlow7{
     0%{transform:translate(-78px, -4px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(74px, 0px);opacity:.75}
-    84%{transform:translate(188px, 2px);opacity:.85}
-    94%{transform:translate(208px, 2px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(74px, 0px);opacity:.95}
+    84%{transform:translate(188px, 2px);opacity:1}
+    94%{transform:translate(208px, 2px);opacity:.3}
     100%{transform:translate(208px, 2px);opacity:0}
 }
 @keyframes dotFlow8{
     0%{transform:translate(-83px, 3px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(54px, -1px);opacity:.75}
-    84%{transform:translate(173px, -3px);opacity:.85}
-    94%{transform:translate(193px, -3px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(54px, -1px);opacity:.95}
+    84%{transform:translate(173px, -3px);opacity:1}
+    94%{transform:translate(193px, -3px);opacity:.3}
     100%{transform:translate(193px, -3px);opacity:0}
 }
 @keyframes dotFlow9{
     0%{transform:translate(-117px, -4px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(41px, 0px);opacity:.75}
-    84%{transform:translate(153px, 1px);opacity:.85}
-    94%{transform:translate(173px, 1px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(41px, 0px);opacity:.95}
+    84%{transform:translate(153px, 1px);opacity:1}
+    94%{transform:translate(173px, 1px);opacity:.3}
     100%{transform:translate(173px, 1px);opacity:0}
 }
 @keyframes dotFlow10{
     0%{transform:translate(-122px, 1px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(11px, 0px);opacity:.75}
-    84%{transform:translate(128px, -1px);opacity:.85}
-    94%{transform:translate(148px, -1px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(11px, 0px);opacity:.95}
+    84%{transform:translate(128px, -1px);opacity:1}
+    94%{transform:translate(148px, -1px);opacity:.3}
     100%{transform:translate(148px, -1px);opacity:0}
 }
 @keyframes dotFlow11{
     0%{transform:translate(-159px, -1px);opacity:0}
-    12%{opacity:.6}
-    60%{transform:translate(-12px, 0px);opacity:.75}
-    84%{transform:translate(103px, 0px);opacity:.85}
-    94%{transform:translate(123px, 0px);opacity:.2}
+    12%{opacity:.85}
+    60%{transform:translate(-12px, 0px);opacity:.95}
+    84%{transform:translate(103px, 0px);opacity:1}
+    94%{transform:translate(123px, 0px);opacity:.3}
     100%{transform:translate(123px, 0px);opacity:0}
 }
 
