@@ -688,6 +688,41 @@
     }
 
     /* =========================================================
+       METHOD HERO OUTCOMES & SCROLL CUE
+       ========================================================= */
+    function initMethodOutcomes() {
+        var outcomesBlock = document.getElementById('methodOutcomesBlock');
+        var signalStage = document.getElementById('signalPathStage');
+        var scrollCue = document.getElementById('methodScrollCue');
+
+        if (outcomesBlock && signalStage) {
+            var nodes = outcomesBlock.querySelectorAll('.outcome-node');
+            nodes.forEach(function (node) {
+                var target = node.getAttribute('data-target');
+                node.addEventListener('mouseenter', function () {
+                    signalStage.classList.remove('highlight-understand', 'highlight-find', 'highlight-decide');
+                    signalStage.classList.add('highlight-' + target);
+                });
+                node.addEventListener('mouseleave', function () {
+                    signalStage.classList.remove('highlight-' + target);
+                });
+            });
+        }
+
+        if (scrollCue) {
+            var onScroll = function () {
+                if (window.scrollY > 50) {
+                    scrollCue.classList.add('scrolled');
+                } else {
+                    scrollCue.classList.remove('scrolled');
+                }
+            };
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        }
+    }
+
+    /* =========================================================
        INIT
        ========================================================= */
     function init() {
@@ -700,6 +735,7 @@
         initWorkLensFilter();
         initWorkHeroVisual();
         initMethodInteractive();
+        initMethodOutcomes();
         initAboutInteractive();
     }
 

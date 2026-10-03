@@ -943,6 +943,151 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     width:100%;
 }
 
+/* --- What This Helps You Do: Compact Hero Addition --- */
+.method-outcomes-block{
+    margin-top:clamp(1.6rem, 2.8vh, 2.2rem);
+    padding-top:1.25rem;
+    border-top:1px solid var(--ink-06);
+    max-width:520px;
+}
+
+.outcomes-kicker{
+    font-family:var(--mono);
+    font-size:.6rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--light);
+    font-weight:600;
+    display:block;
+    margin-bottom:.85rem;
+}
+
+.outcomes-triad{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:clamp(1rem, 1.8vw, 1.6rem);
+}
+
+.outcome-node{
+    display:flex;
+    flex-direction:column;
+    gap:.3rem;
+    cursor:pointer;
+    transition:transform .2s ease;
+}
+
+.outcome-term{
+    font-family:var(--mono);
+    font-size:.68rem;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ink);
+    font-weight:700;
+    transition:color .2s ease;
+}
+
+.outcome-desc{
+    font-family:var(--serif);
+    font-size:.88rem;
+    line-height:1.35;
+    color:var(--muted);
+    font-style:italic;
+    transition:color .2s ease;
+}
+
+.outcome-node:hover .outcome-term{
+    color:var(--accent-dark, #000);
+}
+
+.outcome-node:hover .outcome-desc{
+    color:var(--ink);
+}
+
+/* Subtle hover link between outcomes and Signal Path SVG */
+.signal-path-stage.highlight-understand #svgStage1,
+.signal-path-stage.highlight-understand #svgStage2{
+    filter:drop-shadow(0 0 5px rgba(191,255,0,0.5));
+}
+.signal-path-stage.highlight-understand #milestoneNode1 .milestone-circle-base,
+.signal-path-stage.highlight-understand #milestoneNode2 .milestone-circle-base{
+    stroke:var(--accent);
+    stroke-width:2.5px;
+}
+.signal-path-stage.highlight-understand #milestoneNode1 .milestone-circle-inner,
+.signal-path-stage.highlight-understand #milestoneNode2 .milestone-circle-inner{
+    fill:var(--accent);
+}
+
+.signal-path-stage.highlight-find #svgStage3,
+.signal-path-stage.highlight-find #svgStage4{
+    filter:drop-shadow(0 0 5px rgba(191,255,0,0.5));
+}
+.signal-path-stage.highlight-find #milestoneNode3 .milestone-circle-base,
+.signal-path-stage.highlight-find #milestoneNode4 .milestone-circle-base{
+    stroke:var(--accent);
+    stroke-width:2.5px;
+}
+.signal-path-stage.highlight-find #milestoneNode3 .milestone-circle-inner,
+.signal-path-stage.highlight-find #milestoneNode4 .milestone-circle-inner{
+    fill:var(--accent);
+}
+
+.signal-path-stage.highlight-decide #svgStage5,
+.signal-path-stage.highlight-decide #svgStage6{
+    filter:drop-shadow(0 0 8px rgba(191,255,0,0.7));
+}
+.signal-path-stage.highlight-decide #milestoneNode5 .milestone-circle-base,
+.signal-path-stage.highlight-decide #milestoneNode6 .milestone-circle-base{
+    stroke:var(--accent);
+    stroke-width:2.5px;
+}
+.signal-path-stage.highlight-decide #milestoneNode5 .milestone-circle-inner,
+.signal-path-stage.highlight-decide #milestoneNode6 .milestone-circle-inner{
+    fill:var(--accent);
+}
+
+/* Scroll Cue */
+.method-scroll-cue{
+    margin-top:clamp(1.6rem, 2.8vh, 2.2rem);
+    padding-top:1.1rem;
+    border-top:1px solid var(--ink-04);
+    display:flex;
+    align-items:center;
+    transition:opacity .35s ease, transform .35s ease;
+}
+
+.method-cue-link{
+    display:inline-flex;
+    align-items:center;
+    gap:.55rem;
+    font-family:var(--mono);
+    font-size:.62rem;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--light);
+    text-decoration:none;
+    transition:color .2s ease;
+}
+
+.method-cue-link:hover{
+    color:var(--ink);
+}
+
+.method-cue-arrow{
+    font-size:.75rem;
+    transition:transform .2s ease;
+}
+
+.method-cue-link:hover .method-cue-arrow{
+    transform:translateY(2px);
+}
+
+.method-scroll-cue.scrolled{
+    opacity:0;
+    pointer-events:none;
+    transform:translateY(6px);
+}
+
 /* --- Main Interactive Method Workspace --- */
 .method-system-section{
     padding:6vh 0 8vh;
@@ -1152,7 +1297,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     background:#FAF9F5;
     border:1px solid var(--ink-08);
     border-radius:6px;
-    padding:1.8rem 2rem;
+    padding:1.35rem 1.8rem;
     box-shadow:0 12px 36px rgba(0,0,0,0.035);
     position:relative;
     overflow:hidden;
@@ -1162,9 +1307,9 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding-bottom:1.2rem;
+    padding-bottom:.85rem;
     border-bottom:1px solid var(--ink-04);
-    margin-bottom:1.2rem;
+    margin-bottom:.85rem;
     flex-wrap:wrap;
     gap:.8rem;
 }
@@ -1219,29 +1364,44 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 .signal-path-svg{
     width:100%;
     height:auto;
-    min-height:380px;
+    min-height:335px;
     display:block;
+}
+
+/* Subtle Analytical Landscape */
+.analytical-landscape{
+    pointer-events:none;
+    user-select:none;
+}
+
+.contour-trace{
+    animation:subtleTraceDrift 50s linear infinite;
+}
+
+@keyframes subtleTraceDrift{
+    from{stroke-dashoffset:0}
+    to{stroke-dashoffset:48}
 }
 
 .signal-flow-base{
     fill:none;
     stroke:rgba(18,18,18,0.12);
-    stroke-width:2;
-    stroke-dasharray:4,4;
+    stroke-width:2.4;
+    stroke-dasharray:5,5;
     transition:stroke .4s var(--ease);
 }
 
 .signal-flow-active{
     fill:none;
     stroke:var(--ink);
-    stroke-width:3.5;
+    stroke-width:4.2;
     transition:stroke-dasharray .5s var(--ease), stroke-dashoffset .5s var(--ease), stroke .4s;
 }
 
 .signal-tributary{
     fill:none;
     stroke:rgba(18,18,18,0.18);
-    stroke-width:1.5;
+    stroke-width:1.8;
     transition:stroke .3s, opacity .3s;
 }
 
@@ -1256,7 +1416,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 .milestone-group:hover .milestone-circle-base{
     stroke:var(--ink);
-    stroke-width:2.5;
+    stroke-width:2.8;
 }
 
 .milestone-group:hover .milestone-label{
@@ -1266,7 +1426,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 .milestone-circle-base{
     fill:#FAF9F5;
     stroke:var(--ink-20);
-    stroke-width:2;
+    stroke-width:2.2;
     transition:all .3s var(--ease);
 }
 
@@ -1277,7 +1437,7 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 .milestone-num{
     font-family:var(--mono);
-    font-size:9px;
+    font-size:11.5px;
     font-weight:600;
     fill:var(--light);
     text-anchor:middle;
@@ -1287,17 +1447,17 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
 
 .milestone-label{
     font-family:var(--mono);
-    font-size:8.5px;
+    font-size:10.5px;
     font-weight:600;
     fill:var(--light);
-    letter-spacing:.08em;
+    letter-spacing:.085em;
     transition:fill .3s;
 }
 
 /* Active Milestone in SVG */
 .milestone-group.active .milestone-circle-base{
     stroke:var(--accent);
-    stroke-width:2.5;
+    stroke-width:3;
 }
 
 .milestone-group.active .milestone-circle-inner{
@@ -3287,6 +3447,24 @@ body[data-page="about"] .nav-link[data-page="about"]::after{
     .method-track{padding-left:2.2rem}
     .stage{padding:1.5rem 0;gap:.8rem}
     .stage::before{left:-2.2rem}
+
+    .method-outcomes-block{
+        margin-top:1.8rem;
+        padding-top:1.2rem;
+    }
+    .outcomes-triad{
+        grid-template-columns:1fr;
+        gap:.85rem;
+    }
+    .method-scroll-cue{
+        margin-top:1.6rem;
+    }
+    .signal-path-stage{
+        padding:1.3rem 1.1rem;
+    }
+    .signal-path-svg{
+        min-height:280px;
+    }
 
     .noise-signal-strip{
         flex-wrap:wrap;
