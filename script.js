@@ -370,6 +370,111 @@
     }
 
     /* =========================================================
+       SIGNATURE VISITOR COUNT DETAIL
+       ========================================================= */
+    function initVisitorCounter() {
+        var counterEl = document.getElementById('visitorCounter');
+        var valEl = document.getElementById('visitorCountVal');
+        if (!counterEl || !valEl) return;
+
+        var targetCount = null;
+        var inViewport = false;
+        var hasAnimated = false;
+
+        function formatCount(num) {
+            if (typeof num !== 'number' || isNaN(num) || num <= 0) return '—';
+            var str = String(num);
+            while (str.length < 5) {
+                str = '0' + str;
+            }
+            return str.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+
+        function triggerEntrance() {
+            if (hasAnimated || targetCount === null) return;
+            hasAnimated = true;
+
+            if (reducedMotion || targetCount <= 0) {
+                valEl.textContent = formatCount(targetCount);
+                counterEl.classList.add('is-active');
+                return;
+            }
+
+            var duration = 900;
+            var startTime = null;
+
+            function frame(now) {
+                if (!startTime) startTime = now;
+                var progress = Math.min((now - startTime) / duration, 1);
+                var ease = 1 - Math.pow(1 - progress, 3);
+                var current = Math.floor(ease * targetCount);
+                valEl.textContent = formatCount(current);
+
+                if (progress < 1) {
+                    requestAnimationFrame(frame);
+                } else {
+                    valEl.textContent = formatCount(targetCount);
+                    counterEl.classList.add('is-active');
+                }
+            }
+            requestAnimationFrame(frame);
+        }
+
+        if ('IntersectionObserver' in window) {
+            var obs = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        inViewport = true;
+                        if (targetCount !== null) {
+                            triggerEntrance();
+                        }
+                        obs.unobserve(counterEl);
+                    }
+                });
+            }, { threshold: 0.1 });
+            obs.observe(counterEl);
+        } else {
+            inViewport = true;
+        }
+
+        try {
+            var sessionKey = 'mg_portfolio_session_v1';
+            var hasVisited = false;
+            try {
+                hasVisited = !!sessionStorage.getItem(sessionKey);
+            } catch (e) {}
+
+            var endpoint = hasVisited
+                ? 'https://countapi.mileshilliard.com/api/v1/get/manishgarg_portfolio_visits'
+                : 'https://countapi.mileshilliard.com/api/v1/hit/manishgarg_portfolio_visits';
+
+            var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+            var timeoutId = controller ? setTimeout(function () { controller.abort(); }, 5000) : null;
+
+            fetch(endpoint, { signal: controller ? controller.signal : undefined })
+                .then(function (res) {
+                    if (timeoutId) clearTimeout(timeoutId);
+                    if (!res.ok) throw new Error('Counter offline');
+                    return res.json();
+                })
+                .then(function (data) {
+                    if (data && typeof data.value === 'number') {
+                        targetCount = data.value;
+                        try {
+                            sessionStorage.setItem(sessionKey, '1');
+                        } catch (e) {}
+                        if (inViewport) {
+                            triggerEntrance();
+                        }
+                    }
+                })
+                .catch(function () {
+                    // Graceful fallback: keeps initial '—' placeholder intact without broken text or error
+                });
+        } catch (e) {}
+    }
+
+    /* =========================================================
        WORK PAGE: INTERACTIVE PERSPECTIVE LENS FILTER
        ========================================================= */
     function initWorkLensFilter() {
@@ -728,6 +833,7 @@
     function init() {
         initNav();
         initSharedFooter();
+        initVisitorCounter();
         initScrollAnimations();
         initCollageParallax();
         initSenseWorkspace();
