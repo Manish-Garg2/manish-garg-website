@@ -136,6 +136,9 @@ function normaliseRecord(item, index) {
         sourceTitle: item.sourceName || 'Reported News',
         sourceType: sourceQuality,
         verificationStatus: sourceQuality,
+        careerUrl: item.careerUrl || null,
+        careerVerified: item.careerVerified === true,
+        careerLastVerified: item.careerLastVerified || null,
         status: item.status || 'Operational',
         lastVerified: item.lastChecked || '2026-10-06'
     };

@@ -895,9 +895,16 @@ const jsContent = `/* ==========================================================
                         <div style="font-size: 0.72rem; color: var(--light); font-family: var(--mono); margin-bottom: 0.75rem;">
                             Audited / Last Verified: \${record.lastVerified}
                         </div>
-                        <a href="\${record.sourceUrl}" target="_blank" rel="noopener noreferrer" class="gcc-source-link-btn">
-                            Open Official Reporting Link ↗
-                        </a>
+                        <div class="gcc-modal-actions">
+                            <a href="\${record.sourceUrl}" target="_blank" rel="noopener noreferrer" class="gcc-source-link-btn">
+                                Open Official Reporting Link ↗
+                            </a>
+                            \${record.careerUrl ? \`
+                            <a href="\${record.careerUrl}" target="_blank" rel="noopener noreferrer" class="gcc-career-link-btn" title="Explore careers at \${record.company}">
+                                EXPLORE CAREERS ↗
+                            </a>
+                            \` : ''}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1212,23 +1212,59 @@
     line-height: 1.5;
 }
 
+.gcc-modal-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+    margin-top: 0.65rem;
+}
+
 .gcc-source-link-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 10px 16px;
+    gap: 0.45rem;
+    padding: 8px 14px;
     background: #111111;
     color: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 5px;
     font-family: var(--mono, monospace);
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     text-decoration: none;
-    margin-top: 0.5rem;
     transition: background 0.2s;
 }
 
 .gcc-source-link-btn:hover {
     background: #2D6A4F;
+}
+
+.gcc-career-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 7px 13px;
+    background: transparent;
+    color: var(--ink, #111111);
+    border: 1px solid rgba(17, 17, 17, 0.2);
+    border-radius: 5px;
+    font-family: var(--mono, monospace);
+    font-size: 0.72rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: all 0.2s;
+}
+
+.gcc-career-link-btn:hover {
+    background: #FFFFFF;
+    border-color: #111111;
+    color: #111111;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.gcc-career-link-btn:focus-visible {
+    outline: 2px solid #2D6A4F;
+    outline-offset: 2px;
 }
 
 /* Secondary Panels: Policy Matrix & Recent Stream */
