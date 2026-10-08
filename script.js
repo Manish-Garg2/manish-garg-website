@@ -45,6 +45,7 @@
             if (path.indexOf('work') !== -1) currentPage = 'work';
             else if (path.indexOf('method') !== -1) currentPage = 'method';
             else if (path.indexOf('about') !== -1) currentPage = 'about';
+            else if (path.indexOf('gcc') !== -1) currentPage = 'gcc-tracker';
             else currentPage = 'home';
         }
 

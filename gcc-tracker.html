@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India GCC Intelligence | GCC Tracker — Manish Garg</title>
+    <meta name="description" content="Explore India's GCC growth, expansion activity, cities, companies, industries and reported hiring through a source-backed intelligence dashboard.">
+    <meta name="author" content="Manish Garg">
+    <meta property="og:title" content="India GCC Intelligence | GCC Tracker — Manish Garg">
+    <meta property="og:description" content="Explore India's GCC growth, expansion activity, cities, companies, industries and reported hiring through a source-backed intelligence dashboard.">
+    <meta property="og:type" content="website">
+
+    <!-- Design System Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Global Portfolio Tokens & Navigation -->
+    <link rel="stylesheet" href="styles.css?v=2.2">
+    <!-- Scoped GCC Intelligence Product Stylesheet -->
+    <link rel="stylesheet" href="gcc-tracker/gcc-tracker.css">
+</head>
+<body data-page="gcc-tracker">
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-name">MANISH GARG</a>
+                <span class="nav-tag">ANALYTICS / DECISIONS / AI</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="work.html" class="nav-link" data-page="work">WORK</a>
+                <a href="method.html" class="nav-link" data-page="method">METHOD</a>
+                <a href="about.html" class="nav-link" data-page="about">ABOUT</a>
+                <a href="gcc-tracker.html" class="nav-link active" data-page="gcc-tracker" aria-current="page">GCC INTELLIGENCE</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== GCC INTELLIGENCE DASHBOARD ===== -->
+    <main class="gcc-page">
+        <div class="gcc-shell">
+            
+            <!-- Dashboard Header -->
+            <header class="gcc-header">
+                <div class="gcc-header-top">
+                    <div>
+                        <div class="gcc-kicker-group">
+                            <span class="gcc-beacon">
+                                <span class="gcc-beacon-dot"></span>
+                                LIVE REPOSITORY
+                            </span>
+                            <span>INDIA GCC INTELLIGENCE</span>
+                            <span>·</span>
+                            <span>2022–2026 TRACKER</span>
+                        </div>
+                        <h1 class="gcc-title">India GCC Intelligence</h1>
+                        <p class="gcc-lead">
+                            Tracking where India's Global Capability Centre ecosystem is growing, who is expanding, and what is changing across cities, sectors, and hiring commitments.
+                        </p>
+                    </div>
+
+                    <div class="gcc-header-meta">
+                        <div class="gcc-refresh-badge">
+                            <span>LAST REFRESHED:</span>
+                            <strong id="gccRefreshDate">8 October 2026</strong>
+                        </div>
+                        <button type="button" class="gcc-transparency-btn" id="gccOpenMethodBtn">
+                            Inspection Methodology & Source Hierarchy →
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Executive KPI Area -->
+            <section class="gcc-kpi-grid" aria-label="Executive Key Performance Indicators">
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">Total GCCs Tracked</span>
+                    <div class="gcc-kpi-num" id="gccKpiTotal">—</div>
+                    <span class="gcc-kpi-sub">Verified initiatives across India</span>
+                </div>
+
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">New GCC Launches</span>
+                    <div class="gcc-kpi-num" id="gccKpiNew" style="color: #2D6A4F;">—</div>
+                    <span class="gcc-kpi-sub">First-time India centres</span>
+                </div>
+
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">Expansions & Hubs</span>
+                    <div class="gcc-kpi-num" id="gccKpiExpansion" style="color: #1D3557;">—</div>
+                    <span class="gcc-kpi-sub">Follow-on expansions</span>
+                </div>
+
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">Announced / Planned Jobs</span>
+                    <div class="gcc-kpi-num" id="gccKpiJobs">—</div>
+                    <span class="gcc-kpi-sub">Disclosed public commitments</span>
+                </div>
+
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">Active Hub Cities</span>
+                    <div class="gcc-kpi-num" id="gccKpiCities">—</div>
+                    <span class="gcc-kpi-sub">Across Tier 1 & Tier 2</span>
+                </div>
+
+                <div class="gcc-kpi-card">
+                    <span class="gcc-kpi-label">Primary Source Ratio</span>
+                    <div class="gcc-kpi-num" id="gccKpiPrimary" style="color: #385600;">—</div>
+                    <span class="gcc-kpi-sub">Corporate & exchange filings</span>
+                    <div class="gcc-kpi-ratio-bar">
+                        <div class="gcc-kpi-ratio-fill-new" id="gccKpiRatioBarNew" style="width: 50%;"></div>
+                        <div class="gcc-kpi-ratio-fill-exp" id="gccKpiRatioBarExp" style="width: 50%;"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Two-Column Workstation: India Map + Ecosystem Dynamics -->
+            <section class="gcc-analytics-grid">
+                
+                <!-- Left: India Hub Map -->
+                <div class="gcc-panel">
+                    <div class="gcc-panel-header">
+                        <div>
+                            <h2 class="gcc-panel-title">Geographical Hub Concentration</h2>
+                            <span class="gcc-panel-subtitle">Select any city node to focus the entire dashboard</span>
+                        </div>
+                    </div>
+
+                    <div class="gcc-map-wrapper" id="gccMapWrapper">
+                        <!-- Dynamic SVG Map Injected by JS -->
+                    </div>
+
+                    <div class="gcc-city-pill-list" id="gccCityPills">
+                        <!-- Dynamic City Filter Pills -->
+                    </div>
+                </div>
+
+                <!-- Right: Ecosystem Growth Over Time & Sector Dynamics -->
+                <div class="gcc-panel">
+                    <div class="gcc-panel-header">
+                        <div>
+                            <h2 class="gcc-panel-title">Ecosystem Growth Dynamics</h2>
+                            <span class="gcc-panel-subtitle" id="gccChartSubtitle">Announcements by Year (New Launches vs Expansions)</span>
+                        </div>
+                        <div class="gcc-chart-tabs">
+                            <button type="button" class="gcc-chart-tab is-active" id="gccTabYears">Timeline</button>
+                            <button type="button" class="gcc-chart-tab" id="gccTabSectors">Sectors</button>
+                        </div>
+                    </div>
+
+                    <div class="gcc-chart-container" id="gccChartContainer">
+                        <!-- Dynamic Chart Rendered by JS -->
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Searchable Company Directory & Filters -->
+            <section class="gcc-directory-section" aria-label="Company Directory & Searchable Filter Panel">
+                <div class="gcc-panel-header" style="border-bottom: none; padding-bottom: 0;">
+                    <div>
+                        <h2 class="gcc-panel-title">Verified GCC Initiative Directory</h2>
+                        <span class="gcc-panel-subtitle">Search, filter, and inspect source documentation for all tracked centres</span>
+                    </div>
+                </div>
+
+                <div class="gcc-filter-bar">
+                    <div class="gcc-search-input-wrap">
+                        <svg class="gcc-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" class="gcc-search-input" id="gccSearchInput" placeholder="Search company, capability, country..." aria-label="Search companies">
+                    </div>
+
+                    <select class="gcc-select" id="gccCitySelect" aria-label="Filter by City">
+                        <option value="ALL">All Cities</option>
+                    </select>
+
+                    <select class="gcc-select" id="gccSectorSelect" aria-label="Filter by Sector">
+                        <option value="ALL">All Sectors</option>
+                    </select>
+
+                    <select class="gcc-select" id="gccEventTypeSelect" aria-label="Filter by Event Type">
+                        <option value="ALL">All Event Types</option>
+                        <option value="New GCC">New GCC Launch</option>
+                        <option value="Expansion">Expansion</option>
+                    </select>
+
+                    <select class="gcc-select" id="gccSortSelect" aria-label="Sort records">
+                        <option value="date-desc">Date (Newest First)</option>
+                        <option value="date-asc">Date (Oldest First)</option>
+                        <option value="company-asc">Company (A to Z)</option>
+                        <option value="jobs-desc">Disclosed Jobs (Highest)</option>
+                    </select>
+                </div>
+
+                <div class="gcc-filter-meta">
+                    <span id="gccResultCount">Loading initiatives…</span>
+                    <button type="button" class="gcc-reset-btn" id="gccResetBtn">Reset All Filters</button>
+                </div>
+
+                <!-- Data Table -->
+                <div class="gcc-table-wrapper">
+                    <table class="gcc-table">
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Hub Location</th>
+                                <th>Industry Sector</th>
+                                <th>Capability Focus</th>
+                                <th>Event Type</th>
+                                <th>Jobs / Capacity</th>
+                                <th>Source Audit</th>
+                            </tr>
+                        </thead>
+                        <tbody id="gccTableBody">
+                            <!-- Injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Table Pagination -->
+                <div class="gcc-pagination-bar">
+                    <span id="gccPageIndicator">Page 1 of 1</span>
+                    <div class="gcc-page-btns">
+                        <button type="button" class="gcc-page-btn" id="gccPagePrev" disabled>← Previous</button>
+                        <button type="button" class="gcc-page-btn" id="gccPageNext">Next →</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Intelligence Stream: Recent Announcements & State Policies -->
+            <section class="gcc-info-split">
+                
+                <!-- Recent Announcements Feed -->
+                <div class="gcc-panel">
+                    <div class="gcc-panel-header">
+                        <div>
+                            <h2 class="gcc-panel-title">Recent Announcement Pulse</h2>
+                            <span class="gcc-panel-subtitle">Latest corporate announcements from 2026 & late 2025</span>
+                        </div>
+                    </div>
+                    <div id="gccAnnouncementsList">
+                        <!-- Injected by JS -->
+                    </div>
+                </div>
+
+                <!-- State GCC Policies -->
+                <div class="gcc-panel">
+                    <div class="gcc-panel-header">
+                        <div>
+                            <h2 class="gcc-panel-title">State GCC Policy Frameworks</h2>
+                            <span class="gcc-panel-subtitle">Official state government incentive schemes & targets</span>
+                        </div>
+                    </div>
+                    <div id="gccPoliciesList">
+                        <!-- Injected by JS -->
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Company Detail Slide-Over Modal -->
+    <div class="gcc-modal-backdrop" id="gccModalBackdrop" role="dialog" aria-modal="true" aria-label="Company GCC Details">
+        <div class="gcc-modal-drawer">
+            <button type="button" class="gcc-modal-close-btn" id="gccModalCloseBtn" aria-label="Close detail modal">✕</button>
+            <div id="gccModalContent">
+                <!-- Injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Methodology & Transparency Modal -->
+    <div class="gcc-modal-backdrop" id="gccMethodModal" role="dialog" aria-modal="true" aria-label="Methodology and Source Standards">
+        <div class="gcc-method-modal">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.25rem;">
+                <h2 style="font-family: var(--sans); font-size: 1.4rem; font-weight: 700;">Methodology & Source Standards</h2>
+                <button type="button" class="gcc-modal-close-btn" id="gccMethodModalClose" aria-label="Close modal">✕</button>
+            </div>
+            
+            <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6; display: flex; flex-direction: column; gap: 1rem;">
+                <div>
+                    <strong style="color: var(--ink);">What Qualifies as a GCC:</strong>
+                    <p>An entity owned or contracted by a company headquartered outside India that performs high-value engineering, product development, R&D, finance, or strategic operations for its own global organisation.</p>
+                </div>
+
+                <div>
+                    <strong style="color: var(--ink);">Disclosed Headcount vs. Planned Hires:</strong>
+                    <p>Figures reflect public management commitments and reported plans from official press releases or verified news outlets. Planned hiring targets are explicitly distinguished from current stationed headcount.</p>
+                </div>
+
+                <div>
+                    <strong style="color: var(--ink);">Source Verification Hierarchy:</strong>
+                    <ul style="margin-left: 1rem; list-style: disc;">
+                        <li><strong>Verified Primary:</strong> Stock exchange disclosures (NSE/BSE/SEC), official company newsrooms, and investor portals.</li>
+                        <li><strong>Verified News:</strong> Reputable national business press (Reuters, The Economic Times, The Hindu, Business Standard, TechCrunch).</li>
+                        <li><strong>Secondary Research:</strong> Validated industry association roundups and commercial leasing filings.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <strong style="color: var(--ink);">Automated Data Refresh Pipeline:</strong>
+                    <p>Repository data is processed via automated GitHub Actions twice daily (06:00 & 18:00 UTC). Incoming items are schema-validated, normalised, and deduplicated prior to commit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SHARED FOOTER / LOWER NAVIGATION (CONSISTENT ACROSS ALL PAGES) ===== -->
+    <footer class="site-footer" id="siteFooter" role="contentinfo">
+        <div class="footer-container">
+            
+            <!-- Top Hero Banner / Closing Call to Action -->
+            <div class="footer-hero" data-animate="fade-up">
+                <div class="footer-headline-group">
+                    <span class="footer-kicker">NEXT STEP</span>
+                    <h2 class="footer-headline">Have a problem worth exploring?</h2>
+                    <p class="footer-lead">
+                        Curious about business questions. Grounded in evidence. Ready to talk.
+                    </p>
+                </div>
+                <div class="footer-cta-wrap">
+                    <a href="mailto:garg38396@gmail.com" class="footer-cta-btn" id="footerContactBtn" data-config-link="email">
+                        <span>Start a Conversation</span>
+                        <span class="footer-cta-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Middle / 3-Column Main Grid -->
+            <div class="footer-main-grid">
+                
+                <!-- Brand & Positioning -->
+                <div class="footer-brand-col">
+                    <a href="index.html" class="footer-brand-title">MANISH GARG</a>
+                    <p class="footer-brand-tag">Business Analytics · Decision Practice · AI</p>
+                    <p class="footer-brand-desc">
+                        Turning messy business questions into evidence, and evidence into decisions.
+                    </p>
+                    <div class="footer-location">
+                        <span class="loc-dot" aria-hidden="true"></span>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="footer-nav-col">
+                    <span class="footer-col-label">EXPLORE</span>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link" data-page="home">Home <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="work.html" class="footer-link" data-page="work">Work <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="method.html" class="footer-link" data-page="method">Method <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                        <li><a href="about.html" class="footer-link" data-page="about">About <span class="f-arrow" aria-hidden="true">→</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Direct Social & Contact Tabs -->
+                <div class="footer-contact-col">
+                    <span class="footer-col-label">CONNECT</span>
+                    <ul class="footer-social-tabs">
+                        <li>
+                            <a href="https://www.linkedin.com/in/manish-garg-51b072228" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="linkedin" aria-label="LinkedIn profile">
+                                <span class="social-icon">LI</span>
+                                <span class="social-name">LinkedIn</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-tab" data-config-link="instagram" aria-label="Instagram profile">
+                                <span class="social-icon">IG</span>
+                                <span class="social-name">Instagram</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:garg38396@gmail.com" class="social-tab" data-config-link="email" aria-label="Email Manish Garg">
+                                <span class="social-icon">@</span>
+                                <span class="social-name">Email</span>
+                                <span class="social-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar / Legal & Attribution -->
+            <div class="footer-bottom-bar">
+                <span class="footer-copyright">© 2026 Manish Garg · Business Analytics & Decision Practice</span>
+                <div class="footer-visitor-counter" id="visitorCounter" aria-label="Site visits so far">
+                    <span class="counter-label">VISITS SO FAR</span>
+                    <span class="counter-val" id="visitorCountVal">—</span>
+                    <span class="counter-dot" aria-hidden="true"></span>
+                </div>
+                <span class="footer-credo">Built around questions, evidence and decisions.</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Shared Navigation & Dynamic Scripts -->
+    <script src="script.js?v=2.2"></script>
+    <!-- Isolated GCC Intelligence Application -->
+    <script src="gcc-tracker/gcc-tracker.js"></script>
+</body>
+</html>
