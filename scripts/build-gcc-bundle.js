@@ -228,9 +228,23 @@ const jsContent = `/* ==========================================================
         });
     }
 
+    function formatRefreshIST(isoString, fallbackDisplay) {
+        if (!isoString) return fallbackDisplay || 'Unavailable';
+        const date = new Date(isoString);
+        if (isNaN(date.getTime())) return fallbackDisplay || 'Unavailable';
+        const day = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric' }).format(date);
+        const month = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', month: 'long' }).format(date);
+        const year = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', year: 'numeric' }).format(date);
+        const time = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(date);
+        return day + ' ' + month + ' ' + year + ', ' + time.toLowerCase() + ' IST';
+    }
+
     function loadLiveData() {
         // Try fetching external gcc-data.json
-        const dataPath = 'gcc-tracker/gcc-data.json';
+        const dataPath = window.location.pathname.endsWith('/gcc-tracker') || window.location.pathname.endsWith('/gcc-tracker/')
+            ? 'gcc-data.json'
+            : 'gcc-tracker/gcc-data.json';
+
         fetch(dataPath)
             .then(function (res) {
                 if (!res.ok) throw new Error('Live data fetch offline');
@@ -244,13 +258,13 @@ const jsContent = `/* ==========================================================
                     applyFiltersAndRender();
                     renderRecentAnnouncements();
                     renderStatePolicies();
-                    updateTimestamp(json.meta?.lastRefreshedDisplay);
+                    updateTimestamp(formatRefreshIST(json.meta?.lastRefreshedIso, json.meta?.lastRefreshedDisplay));
                 }
             })
             .catch(function () {
                 // Smoothly continue using embedded authentic dataset
                 populateDropdowns();
-                updateTimestamp(AppState.data.meta?.lastRefreshedDisplay);
+                updateTimestamp(formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay));
             });
     }
 
@@ -618,7 +632,7 @@ const jsContent = `/* ==========================================================
 
         const insightText = generateInsightText(AppState.filteredRecords, AppState.filters.city, AppState.filters.sector);
 
-        const refreshDisplay = AppState.data?.meta?.lastRefreshedDisplay || '8 October 2026';
+        const refreshDisplay = formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay);
 
         const statusStripHtml = '<div class="gcc-chart-status-strip">' +
             '<div class="gcc-status-strip-left">' +
@@ -730,7 +744,7 @@ const jsContent = `/* ==========================================================
             ? top2[0][0] + ' and ' + top2[1][0] + ' lead deployment, accounting for ' + top2Pct + '% of tracked capability centres across Indian hubs.'
             : 'Tracking ' + total + ' initiatives across active industry categories.';
 
-        const refreshDisplay = AppState.data?.meta?.lastRefreshedDisplay || '8 October 2026';
+        const refreshDisplay = formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay);
 
         const statusStripHtml = '<div class="gcc-chart-status-strip">' +
             '<div class="gcc-status-strip-left">' +

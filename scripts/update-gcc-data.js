@@ -217,8 +217,11 @@ function processData() {
     });
 
     const now = new Date();
-    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    const formattedDate = `${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}`;
+    const day = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric' }).format(now);
+    const month = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', month: 'long' }).format(now);
+    const year = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', year: 'numeric' }).format(now);
+    const time = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(now);
+    const formattedDate = `${day} ${month} ${year}, ${time.toLowerCase()} IST`;
 
     const compiledData = {
         meta: {

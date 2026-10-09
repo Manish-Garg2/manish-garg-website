@@ -78,8 +78,8 @@
     "title": "India GCC Intelligence & Tracker",
     "description": "Comprehensive, source-backed tracking of Global Capability Centre openings, expansions, and talent commitments across India.",
     "dataCoverage": "2022 – 2026 Announced & Operational GCC Initiatives",
-    "lastRefreshedIso": "2026-10-08T14:07:12.246Z",
-    "lastRefreshedDisplay": "8 October 2026",
+    "lastRefreshedIso": "2026-10-09T07:58:10.616Z",
+    "lastRefreshedDisplay": "9 October 2026, 1:28 pm IST",
     "pipelineSchedule": "Refreshed twice daily at 06:00 & 18:00 UTC via automated GitHub Actions",
     "totalTracked": 211,
     "newCount": 127,
@@ -391,11 +391,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.abb/global/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "abercrombie-blr",
@@ -417,11 +417,11 @@
       "sourceTitle": "PTI via The Wire",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://corporate.abercrombie.com/careers/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "abinbev-blr",
@@ -443,11 +443,11 @@
       "sourceTitle": "Consultancy.in",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "acumatica-hyd",
@@ -469,11 +469,11 @@
       "sourceTitle": "Acumatica press release",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.acumatica.com/careers/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "adecco-blr",
@@ -495,11 +495,11 @@
       "sourceTitle": "Staffing Industry Analysts",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "adobe-noida",
@@ -521,11 +521,11 @@
       "sourceTitle": "Adobe newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.adobe.com/us/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "agilent-hyd",
@@ -547,11 +547,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.agilent.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "airbus-blr",
@@ -573,11 +573,11 @@
       "sourceTitle": "News On AIR",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.airbus.com/en/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "albertsons-blr",
@@ -599,11 +599,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "alight-chennai",
@@ -625,11 +625,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.alight.com/us/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "alvarez-marsal-ggn",
@@ -651,11 +651,11 @@
       "sourceTitle": "Consultancy.in",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "american-airlines-hyd",
@@ -677,11 +677,11 @@
       "sourceTitle": "ePlane AI",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "amex-ggn",
@@ -703,11 +703,11 @@
       "sourceTitle": "India Retailing",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.americanexpress.com/en-us/careers/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "amgen-hyd",
@@ -729,11 +729,11 @@
       "sourceTitle": "Business Standard",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.amgen.com/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "aperam-hyd",
@@ -755,11 +755,11 @@
       "sourceTitle": "CXO Digital Pulse",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "apple-chennai",
@@ -781,11 +781,11 @@
       "sourceTitle": "GCC Voices roundup (Jan–Feb 2026)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://jobs.apple.com/en-in/search?location=india-INDC",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "applied-materials-chennai",
@@ -807,11 +807,11 @@
       "sourceTitle": "CXOToday",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "arch-capital-pune",
@@ -833,11 +833,11 @@
       "sourceTitle": "Business Wire",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "arch-capital-tvm",
@@ -859,11 +859,11 @@
       "sourceTitle": "Business Wire",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "arctic-wolf-blr",
@@ -885,11 +885,11 @@
       "sourceTitle": "CXOToday",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "astera-labs-hyd",
@@ -911,11 +911,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "astrazeneca-chennai",
@@ -937,11 +937,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.astrazeneca.com/location/india-jobs/7684/1269750/2",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "atlassian-blr",
@@ -963,11 +963,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.atlassian.com/company/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "barclays-chennai",
@@ -989,11 +989,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://search.jobs.barclays/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "basf-hyd",
@@ -1015,11 +1015,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.basf.com/global/en/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bdo-noida",
@@ -1041,11 +1041,11 @@
       "sourceTitle": "BDO India",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "best-buy-blr",
@@ -1067,11 +1067,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://jobs.bestbuy.com/bby",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "blupace-hyd",
@@ -1093,11 +1093,11 @@
       "sourceTitle": "CXO Digital Pulse",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bms-group-mumbai",
@@ -1119,11 +1119,11 @@
       "sourceTitle": "BMS Group",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bmw-techworks-pune",
@@ -1145,11 +1145,11 @@
       "sourceTitle": "BMW Group",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bnp-paribas-thane",
@@ -1171,11 +1171,11 @@
       "sourceTitle": "Housiey",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "boeing-blr",
@@ -1197,11 +1197,11 @@
       "sourceTitle": "PM India",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://jobs.boeing.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "boston-sci-pune",
@@ -1223,11 +1223,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bp-blr",
@@ -1249,11 +1249,11 @@
       "sourceTitle": "Quest Global",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bp-pune",
@@ -1275,11 +1275,11 @@
       "sourceTitle": "SSF Global",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "bristol-myers-hyd",
@@ -1301,11 +1301,11 @@
       "sourceTitle": "Siasat",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.bms.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "candescent-hyd",
@@ -1327,11 +1327,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "care-adhd-blr",
@@ -1353,11 +1353,11 @@
       "sourceTitle": "Indian Pharma Post",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "carlsberg-ggn",
@@ -1379,11 +1379,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "carlsberg-hyd",
@@ -1405,11 +1405,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "caterpillar-chennai",
@@ -1431,11 +1431,11 @@
       "sourceTitle": "The Week",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cba-blr",
@@ -1457,11 +1457,11 @@
       "sourceTitle": "Banking Day",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "celonis-blr",
@@ -1483,11 +1483,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "chevron-blr",
@@ -1509,11 +1509,11 @@
       "sourceTitle": "All Things Talent",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.chevron.com/india",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "chubb-chennai",
@@ -1535,11 +1535,11 @@
       "sourceTitle": "DT Next",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cibc-hyd",
@@ -1561,11 +1561,11 @@
       "sourceTitle": "The People's Board",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "citizens-hyd",
@@ -1587,11 +1587,11 @@
       "sourceTitle": "Siasat",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cloudangles-hyd",
@@ -1613,11 +1613,11 @@
       "sourceTitle": "ETV Bharat",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cnh-ggn",
@@ -1639,11 +1639,11 @@
       "sourceTitle": "Equipment India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "codec-blr",
@@ -1665,11 +1665,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cohere-health-hyd",
@@ -1691,11 +1691,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "columbia-group-navimumbai",
@@ -1717,11 +1717,11 @@
       "sourceTitle": "Outsource Accelerator",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "costco-hyd",
@@ -1743,11 +1743,11 @@
       "sourceTitle": "Yahoo Finance",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.costco.com/f/-/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "cummins-pune",
@@ -1769,11 +1769,11 @@
       "sourceTitle": "Autocar Professional",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "daikin-ggn",
@@ -1795,11 +1795,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "daimler-truck-blr",
@@ -1821,11 +1821,11 @@
       "sourceTitle": "CommercialVehicle.in",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "damac-noida",
@@ -1847,11 +1847,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "danaher-blr",
@@ -1873,11 +1873,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "dazn-hyd",
@@ -1899,11 +1899,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "dbs-hyd",
@@ -1925,11 +1925,11 @@
       "sourceTitle": "Asian Private Banker",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.dbs.com/careers/default.page",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "deepwatch-blr",
@@ -1951,11 +1951,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "depuy-synthes-blr",
@@ -1977,11 +1977,11 @@
       "sourceTitle": "Indian Pharma Post",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "deutsche-boerse-hyd",
@@ -2003,11 +2003,11 @@
       "sourceTitle": "ETV Bharat",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "diageo-blr",
@@ -2029,11 +2029,11 @@
       "sourceTitle": "Drinks Insight Network",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "disney-chennai",
@@ -2055,11 +2055,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.disneycareers.com/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "doordash-hyd",
@@ -2081,11 +2081,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "dover-chennai",
@@ -2107,11 +2107,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "dp-world-navimumbai",
@@ -2133,11 +2133,11 @@
       "sourceTitle": "India Seatrade News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "eaton-pune",
@@ -2159,11 +2159,11 @@
       "sourceTitle": "The Week (PTI)",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ebay-blr",
@@ -2185,11 +2185,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.ebayinc.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "eisai-vizag",
@@ -2211,11 +2211,11 @@
       "sourceTitle": "Nasdaq (press release)",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "eli-lilly-hyd",
@@ -2237,11 +2237,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "entain-hyd",
@@ -2263,11 +2263,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "evernorth-hyd",
@@ -2289,11 +2289,11 @@
       "sourceTitle": "Digital Health News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "experian-hyd",
@@ -2315,11 +2315,11 @@
       "sourceTitle": "Experian",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ferguson-blr",
@@ -2341,11 +2341,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ford-coimbatore",
@@ -2367,11 +2367,11 @@
       "sourceTitle": "Verified.RealEstate",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.careers.ford.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ge-aerospace-blr",
@@ -2393,11 +2393,11 @@
       "sourceTitle": "ePlane AI",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "generac-pune",
@@ -2419,11 +2419,11 @@
       "sourceTitle": "Construction World",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "general-mills-pune",
@@ -2445,11 +2445,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "gi-outsourcing-hyd",
@@ -2471,11 +2471,11 @@
       "sourceTitle": "Built In",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "goldman-hyd",
@@ -2497,11 +2497,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.goldmansachs.com/careers/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "google-blr",
@@ -2523,11 +2523,11 @@
       "sourceTitle": "GCC Voices roundup (Jan–Feb 2026)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.google.com/about/careers/applications/locations/india/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "guidewire-blr",
@@ -2549,11 +2549,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "hapag-lloyd-chennai",
@@ -2575,11 +2575,11 @@
       "sourceTitle": "India Seatrade News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "hapag-lloyd-mumbai",
@@ -2601,11 +2601,11 @@
       "sourceTitle": "Hapag-Lloyd",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "hartford-hyd",
@@ -2627,11 +2627,11 @@
       "sourceTitle": "Angel One",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.thehartford.com/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "hca-hyd",
@@ -2653,11 +2653,11 @@
       "sourceTitle": "The People's Board",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "heineken-hyd",
@@ -2679,11 +2679,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "infineon-ahd",
@@ -2705,11 +2705,11 @@
       "sourceTitle": "YourStory",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "inovalon-hyd",
@@ -2731,11 +2731,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "insight-global-hyd",
@@ -2757,11 +2757,11 @@
       "sourceTitle": "Insight Global",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "intuitive-blr",
@@ -2783,11 +2783,11 @@
       "sourceTitle": "Medtech Spectrum",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "invoicecloud-hyd",
@@ -2809,11 +2809,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "jaggaer-hyd",
@@ -2835,11 +2835,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "jll-hyd",
@@ -2861,11 +2861,11 @@
       "sourceTitle": "CXO Digital Pulse",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "jnj-hyd",
@@ -2887,11 +2887,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "jpmorgan-mumbai",
@@ -2913,11 +2913,11 @@
       "sourceTitle": "TechStory",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.jpmorganchase.com/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "kimberly-clark-blr",
@@ -2939,11 +2939,11 @@
       "sourceTitle": "The News Minute",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "kla-chennai",
@@ -2965,11 +2965,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lexitas-chennai",
@@ -2991,11 +2991,11 @@
       "sourceTitle": "Macau Business",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lg-noida",
@@ -3017,11 +3017,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "linde-wiemann-ggn",
@@ -3043,11 +3043,11 @@
       "sourceTitle": "Business News This Week",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lloyds-hyd",
@@ -3069,11 +3069,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lloyds-list-chennai",
@@ -3095,11 +3095,11 @@
       "sourceTitle": "DT Next",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lonza-hyd",
@@ -3121,11 +3121,11 @@
       "sourceTitle": "BioVoice News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "loreal-hyd",
@@ -3147,11 +3147,11 @@
       "sourceTitle": "KP IAS Academy",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.loreal.com/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lowes-blr",
@@ -3173,11 +3173,11 @@
       "sourceTitle": "Retail4Growth",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://talent.lowes.com/us/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lpl-hyd",
@@ -3199,11 +3199,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lubrizol-pune",
@@ -3225,11 +3225,11 @@
       "sourceTitle": "Lubes'n'Greases",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "lufthansa-blr",
@@ -3251,11 +3251,11 @@
       "sourceTitle": "Infosys",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "maersk-blr",
@@ -3277,11 +3277,11 @@
       "sourceTitle": "ITLN",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "magnum-pune",
@@ -3303,11 +3303,11 @@
       "sourceTitle": "Magnum Ice Cream newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "marelli-blr",
@@ -3329,11 +3329,11 @@
       "sourceTitle": "S&P Global AutoTechInsight",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "marriott-hyd",
@@ -3355,11 +3355,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "mastercard-pune",
@@ -3381,11 +3381,11 @@
       "sourceTitle": "Mastercard newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.mastercard.com/us/en/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "maximus-hyd",
@@ -3407,11 +3407,11 @@
       "sourceTitle": "M9 News",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "mcdonalds-hyd",
@@ -3433,11 +3433,11 @@
       "sourceTitle": "GCC Voices roundup (Jan–Feb 2026)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "mckinsey-ggn",
@@ -3459,11 +3459,11 @@
       "sourceTitle": "McKinsey",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "medtronic-pune",
@@ -3485,11 +3485,11 @@
       "sourceTitle": "BioVoice News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.medtronic.com/en-us/about/careers.html",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "mercedes-rd-blr",
@@ -3511,11 +3511,11 @@
       "sourceTitle": "Auto Components India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "merck-blr",
@@ -3537,11 +3537,11 @@
       "sourceTitle": "CXO Digital Pulse",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "metso-vadodara",
@@ -3563,11 +3563,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "milacron-cbe",
@@ -3589,11 +3589,11 @@
       "sourceTitle": "Milacron newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "mizuho-pune",
@@ -3615,11 +3615,11 @@
       "sourceTitle": "Mizuho newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "msd-hyd",
@@ -3641,11 +3641,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "multivac-hyd",
@@ -3667,11 +3667,11 @@
       "sourceTitle": "MULTIVAC",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "n-able-blr",
@@ -3693,11 +3693,11 @@
       "sourceTitle": "HR Katha",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nationwide-hyd",
@@ -3719,11 +3719,11 @@
       "sourceTitle": "GDELT Cloud",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "natwest-blr",
@@ -3745,11 +3745,11 @@
       "sourceTitle": "BusinessWorld",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nemetschek-hyd",
@@ -3771,11 +3771,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nestle-hyd",
@@ -3797,11 +3797,11 @@
       "sourceTitle": "Sightsinplus",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "netflix-hyd",
@@ -3823,11 +3823,11 @@
       "sourceTitle": "NewsBytes",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://jobs.netflix.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nike-blr",
@@ -3849,11 +3849,11 @@
       "sourceTitle": "Lapaas Voice",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.nike.com/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nokia-blr",
@@ -3875,11 +3875,11 @@
       "sourceTitle": "Angel One",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.nokia.com/careers/",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "nordex-chennai",
@@ -3901,11 +3901,11 @@
       "sourceTitle": "DT Next",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "novant-hyd",
@@ -3927,11 +3927,11 @@
       "sourceTitle": "M9 News",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "novartis-hyd",
@@ -3953,11 +3953,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.novartis.com/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "novo-nordisk-blr",
@@ -3979,11 +3979,11 @@
       "sourceTitle": "Business Today",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.novonordisk.com/careers.html",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "octave-hyd",
@@ -4005,11 +4005,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "omnicom-hyd",
@@ -4031,11 +4031,11 @@
       "sourceTitle": "Telangana Today",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "payoneer-ggn",
@@ -4057,11 +4057,11 @@
       "sourceTitle": "NewsBytes",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "pepsico-hyd",
@@ -4083,11 +4083,11 @@
       "sourceTitle": "Business News Today",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.pepsicojobs.com/main/jobs?location=India",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "pfizer-chennai",
@@ -4109,11 +4109,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "philips-blr",
@@ -4135,11 +4135,11 @@
       "sourceTitle": "Philips",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "philips-pune",
@@ -4161,11 +4161,11 @@
       "sourceTitle": "Philips",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "pratt-whitney-blr",
@@ -4187,11 +4187,11 @@
       "sourceTitle": "Aviation Business News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "propharma-hyd",
@@ -4213,11 +4213,11 @@
       "sourceTitle": "M9 News",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "protolabs-hyd",
@@ -4239,11 +4239,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "providence-hyd",
@@ -4265,11 +4265,11 @@
       "sourceTitle": "GCC Voices roundup (Jan–Feb 2026)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "prudential-fin-ggn",
@@ -4291,11 +4291,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "prudential-plc-blr",
@@ -4317,11 +4317,11 @@
       "sourceTitle": "Prudential plc",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "pwc-blr",
@@ -4343,11 +4343,11 @@
       "sourceTitle": "Sightsinplus",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "qad-pune",
@@ -4369,11 +4369,11 @@
       "sourceTitle": "Outlook Business",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "rakuten-blr",
@@ -4395,11 +4395,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ralph-lauren-blr",
@@ -4421,11 +4421,11 @@
       "sourceTitle": "Outsource Accelerator",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "reckitt-hyd",
@@ -4447,11 +4447,11 @@
       "sourceTitle": "Reckitt careers",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "redwood-hyd",
@@ -4473,11 +4473,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "regeneron-hyd",
@@ -4499,11 +4499,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "reltio-blr",
@@ -4525,11 +4525,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "roche-hyd",
@@ -4551,11 +4551,11 @@
       "sourceTitle": "Digital Health News",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "rolls-royce-blr",
@@ -4577,11 +4577,11 @@
       "sourceTitle": "Machinist",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.rolls-royce.com/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sandvik-pune",
@@ -4603,11 +4603,11 @@
       "sourceTitle": "Sandvik",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sanofi-hyd",
@@ -4629,11 +4629,11 @@
       "sourceTitle": "Sightsinplus",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://jobs.sanofi.com/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "schneider-blr",
@@ -4655,11 +4655,11 @@
       "sourceTitle": "Schneider Electric",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.se.com/life-at-schneider",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "servicenow-hyd",
@@ -4681,11 +4681,11 @@
       "sourceTitle": "CRN India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sigma-chennai",
@@ -4707,11 +4707,11 @@
       "sourceTitle": "DT Next",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "silicon-labs-hyd",
@@ -4733,11 +4733,11 @@
       "sourceTitle": "Silicon Labs newsroom",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "smartsheet-blr",
@@ -4759,11 +4759,11 @@
       "sourceTitle": "CXOToday",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sonatype-hyd",
@@ -4785,11 +4785,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sonnys-pune",
@@ -4811,11 +4811,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sonoco-hyd",
@@ -4837,11 +4837,11 @@
       "sourceTitle": "Analytics India Magazine",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "southwest-hyd",
@@ -4863,11 +4863,11 @@
       "sourceTitle": "UNI",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sp-global-blr",
@@ -4889,11 +4889,11 @@
       "sourceTitle": "Outsource Accelerator",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "sp-global-ggn",
@@ -4915,11 +4915,11 @@
       "sourceTitle": "S&P Global",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "starbucks-chennai",
@@ -4941,11 +4941,11 @@
       "sourceTitle": "Adda247 Current Affairs",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://careers.starbucks.com",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "state-street-cbe",
@@ -4967,11 +4967,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "stellantis-hyd",
@@ -4993,11 +4993,11 @@
       "sourceTitle": "Autocar Professional",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "stolt-nielsen-hyd",
@@ -5019,11 +5019,11 @@
       "sourceTitle": "M9 News",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "stryker-ggn",
@@ -5045,11 +5045,11 @@
       "sourceTitle": "BioSpectrum India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "syngenta-pune",
@@ -5071,11 +5071,11 @@
       "sourceTitle": "GCC Voices roundup (Jan–Feb 2026)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "synopsys-noida",
@@ -5097,11 +5097,11 @@
       "sourceTitle": "EE Times India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "t-mobile-hyd",
@@ -5123,11 +5123,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "takeda-blr",
@@ -5149,11 +5149,11 @@
       "sourceTitle": "The Week",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "target-blr",
@@ -5175,11 +5175,11 @@
       "sourceTitle": "Construction World",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://corporate.target.com/careers",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "tesco-blr",
@@ -5201,11 +5201,11 @@
       "sourceTitle": "People Matters",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "the-standard-blr",
@@ -5227,11 +5227,11 @@
       "sourceTitle": "Reinsurance Asia",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "thermo-fisher-hyd",
@@ -5253,11 +5253,11 @@
       "sourceTitle": "Indian Pharma Post",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "toyo-modec-blr",
@@ -5279,11 +5279,11 @@
       "sourceTitle": "Entrepreneur India",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "transunion-pune",
@@ -5305,11 +5305,11 @@
       "sourceTitle": "CXOToday",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "tvh-pune",
@@ -5331,11 +5331,11 @@
       "sourceTitle": "The People's Board",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "uber-hyd",
@@ -5357,11 +5357,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ubs-hyd",
@@ -5383,11 +5383,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "ups-chennai",
@@ -5409,11 +5409,11 @@
       "sourceTitle": "Verified.RealEstate",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.jobs-ups.com/imea/en",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "vanderlande-pune",
@@ -5435,11 +5435,11 @@
       "sourceTitle": "HR Katha",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "vanguard-hyd",
@@ -5461,11 +5461,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "veradigm-pune",
@@ -5487,11 +5487,11 @@
       "sourceTitle": "SSF Global",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "visteon-kolkata",
@@ -5513,11 +5513,11 @@
       "sourceTitle": "The Machine Maker",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "vontier-blr",
@@ -5539,11 +5539,11 @@
       "sourceTitle": "Business Wire",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "voya-hyd",
@@ -5565,11 +5565,11 @@
       "sourceTitle": "Deccan Chronicle",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "wacker-pune",
@@ -5591,11 +5591,11 @@
       "sourceTitle": "Dr. Web",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "walgreens-chennai",
@@ -5617,11 +5617,11 @@
       "sourceTitle": "ThePrint",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Announced",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Announced",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "walmart-chennai",
@@ -5643,11 +5643,11 @@
       "sourceTitle": "Ceipal",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "wayfair-blr",
@@ -5669,11 +5669,11 @@
       "sourceTitle": "CXOToday",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "western-union-hyd",
@@ -5695,11 +5695,11 @@
       "sourceTitle": "HCLTech filing (NSE)",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "wex-blr",
@@ -5721,11 +5721,11 @@
       "sourceTitle": "CXO Digital Pulse",
       "sourceType": "Verified Primary",
       "verificationStatus": "Verified Primary",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "workday-chennai",
@@ -5747,11 +5747,11 @@
       "sourceTitle": "Flexiple",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": "https://www.workday.com/en-us/company/careers/overview.html",
       "careerVerified": true,
-      "careerLastVerified": "2026-10-08"
+      "careerLastVerified": "2026-10-08",
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "zeiss-blr",
@@ -5773,11 +5773,11 @@
       "sourceTitle": "Reuters (via AOL)",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "zendesk-pune",
@@ -5799,11 +5799,11 @@
       "sourceTitle": "CRN Asia",
       "sourceType": "Verified News",
       "verificationStatus": "Verified News",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "zimmer-biomet-blr",
@@ -5825,11 +5825,11 @@
       "sourceTitle": "Sightsinplus",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     },
     {
       "id": "zurich-hyd",
@@ -5851,11 +5851,11 @@
       "sourceTitle": "Hub71 Explorer (PR Newswire)",
       "sourceType": "Secondary Research",
       "verificationStatus": "Secondary Research",
-      "status": "Operational",
-      "lastVerified": "2026-10-06",
       "careerUrl": null,
       "careerVerified": false,
-      "careerLastVerified": null
+      "careerLastVerified": null,
+      "status": "Operational",
+      "lastVerified": "2026-10-06"
     }
   ]
 };
@@ -6061,9 +6061,23 @@
         });
     }
 
+    function formatRefreshIST(isoString, fallbackDisplay) {
+        if (!isoString) return fallbackDisplay || 'Unavailable';
+        const date = new Date(isoString);
+        if (isNaN(date.getTime())) return fallbackDisplay || 'Unavailable';
+        const day = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric' }).format(date);
+        const month = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', month: 'long' }).format(date);
+        const year = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', year: 'numeric' }).format(date);
+        const time = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(date);
+        return day + ' ' + month + ' ' + year + ', ' + time.toLowerCase() + ' IST';
+    }
+
     function loadLiveData() {
         // Try fetching external gcc-data.json
-        const dataPath = 'gcc-tracker/gcc-data.json';
+        const dataPath = window.location.pathname.endsWith('/gcc-tracker') || window.location.pathname.endsWith('/gcc-tracker/')
+            ? 'gcc-data.json'
+            : 'gcc-tracker/gcc-data.json';
+
         fetch(dataPath)
             .then(function (res) {
                 if (!res.ok) throw new Error('Live data fetch offline');
@@ -6077,13 +6091,13 @@
                     applyFiltersAndRender();
                     renderRecentAnnouncements();
                     renderStatePolicies();
-                    updateTimestamp(json.meta?.lastRefreshedDisplay);
+                    updateTimestamp(formatRefreshIST(json.meta?.lastRefreshedIso, json.meta?.lastRefreshedDisplay));
                 }
             })
             .catch(function () {
                 // Smoothly continue using embedded authentic dataset
                 populateDropdowns();
-                updateTimestamp(AppState.data.meta?.lastRefreshedDisplay);
+                updateTimestamp(formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay));
             });
     }
 
@@ -6451,7 +6465,7 @@
 
         const insightText = generateInsightText(AppState.filteredRecords, AppState.filters.city, AppState.filters.sector);
 
-        const refreshDisplay = AppState.data?.meta?.lastRefreshedDisplay || '8 October 2026';
+        const refreshDisplay = formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay);
 
         const statusStripHtml = '<div class="gcc-chart-status-strip">' +
             '<div class="gcc-status-strip-left">' +
@@ -6563,7 +6577,7 @@
             ? top2[0][0] + ' and ' + top2[1][0] + ' lead deployment, accounting for ' + top2Pct + '% of tracked capability centres across Indian hubs.'
             : 'Tracking ' + total + ' initiatives across active industry categories.';
 
-        const refreshDisplay = AppState.data?.meta?.lastRefreshedDisplay || '8 October 2026';
+        const refreshDisplay = formatRefreshIST(AppState.data?.meta?.lastRefreshedIso, AppState.data?.meta?.lastRefreshedDisplay);
 
         const statusStripHtml = '<div class="gcc-chart-status-strip">' +
             '<div class="gcc-status-strip-left">' +

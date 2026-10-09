@@ -84,7 +84,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "abb-hyd"
+      "_id": "abb-hyd",
+      "careerUrl": "https://careers.abb/global/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -106,7 +109,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "New",
-      "_id": "abercrombie-blr"
+      "_id": "abercrombie-blr",
+      "careerUrl": "https://corporate.abercrombie.com/careers/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -150,7 +156,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "acumatica-hyd"
+      "_id": "acumatica-hyd",
+      "careerUrl": "https://www.acumatica.com/careers/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -194,7 +203,10 @@
       "state": "Uttar Pradesh",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "adobe-noida"
+      "_id": "adobe-noida",
+      "careerUrl": "https://careers.adobe.com/us/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -216,7 +228,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "agilent-hyd"
+      "_id": "agilent-hyd",
+      "careerUrl": "https://careers.agilent.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -238,7 +253,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "airbus-blr"
+      "_id": "airbus-blr",
+      "careerUrl": "https://www.airbus.com/en/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -282,7 +300,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "New",
-      "_id": "alight-chennai"
+      "_id": "alight-chennai",
+      "careerUrl": "https://careers.alight.com/us/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Gurugram",
@@ -348,7 +369,10 @@
       "state": "Haryana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "amex-ggn"
+      "_id": "amex-ggn",
+      "careerUrl": "https://www.americanexpress.com/en-us/careers/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -370,7 +394,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "amgen-hyd"
+      "_id": "amgen-hyd",
+      "careerUrl": "https://careers.amgen.com/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -414,7 +441,10 @@
       "state": "Tamil Nadu",
       "status": "Announced",
       "type": "New",
-      "_id": "apple-chennai"
+      "_id": "apple-chennai",
+      "careerUrl": "https://jobs.apple.com/en-in/search?location=india-INDC",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Chennai",
@@ -546,7 +576,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "astrazeneca-chennai"
+      "_id": "astrazeneca-chennai",
+      "careerUrl": "https://careers.astrazeneca.com/location/india-jobs/7684/1269750/2",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -568,7 +601,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "atlassian-blr"
+      "_id": "atlassian-blr",
+      "careerUrl": "https://www.atlassian.com/company/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Chennai",
@@ -590,7 +626,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "barclays-chennai"
+      "_id": "barclays-chennai",
+      "careerUrl": "https://search.jobs.barclays/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -612,7 +651,10 @@
       "state": "Telangana",
       "status": "Announced",
       "type": "New",
-      "_id": "basf-hyd"
+      "_id": "basf-hyd",
+      "careerUrl": "https://www.basf.com/global/en/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Noida",
@@ -656,7 +698,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "New",
-      "_id": "best-buy-blr"
+      "_id": "best-buy-blr",
+      "careerUrl": "https://jobs.bestbuy.com/bby",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -766,7 +811,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "boeing-blr"
+      "_id": "boeing-blr",
+      "careerUrl": "https://jobs.boeing.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Pune",
@@ -854,7 +902,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "bristol-myers-hyd"
+      "_id": "bristol-myers-hyd",
+      "careerUrl": "https://careers.bms.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -1030,7 +1081,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "New",
-      "_id": "chevron-blr"
+      "_id": "chevron-blr",
+      "careerUrl": "https://careers.chevron.com/india",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Chennai",
@@ -1228,7 +1282,10 @@
       "state": "Telangana",
       "status": "Announced",
       "type": "New",
-      "_id": "costco-hyd"
+      "_id": "costco-hyd",
+      "careerUrl": "https://www.costco.com/f/-/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Pune",
@@ -1382,7 +1439,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "dbs-hyd"
+      "_id": "dbs-hyd",
+      "careerUrl": "https://www.dbs.com/careers/default.page",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -1492,7 +1552,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "disney-chennai"
+      "_id": "disney-chennai",
+      "careerUrl": "https://www.disneycareers.com/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -1602,7 +1665,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "New",
-      "_id": "ebay-blr"
+      "_id": "ebay-blr",
+      "careerUrl": "https://careers.ebayinc.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Visakhapatnam",
@@ -1756,7 +1822,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "ford-coimbatore"
+      "_id": "ford-coimbatore",
+      "careerUrl": "https://www.careers.ford.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -1866,7 +1935,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "goldman-hyd"
+      "_id": "goldman-hyd",
+      "careerUrl": "https://www.goldmansachs.com/careers/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -1888,7 +1960,10 @@
       "state": "Karnataka",
       "status": "Announced",
       "type": "Expansion",
-      "_id": "google-blr"
+      "_id": "google-blr",
+      "careerUrl": "https://www.google.com/about/careers/applications/locations/india/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -1976,7 +2051,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "hartford-hyd"
+      "_id": "hartford-hyd",
+      "careerUrl": "https://www.thehartford.com/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -2218,7 +2296,10 @@
       "state": "Maharashtra",
       "status": "Announced",
       "type": "Expansion",
-      "_id": "jpmorgan-mumbai"
+      "_id": "jpmorgan-mumbai",
+      "careerUrl": "https://www.jpmorganchase.com/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -2416,7 +2497,10 @@
       "state": "Telangana",
       "status": "Announced",
       "type": "New",
-      "_id": "loreal-hyd"
+      "_id": "loreal-hyd",
+      "careerUrl": "https://careers.loreal.com/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -2438,7 +2522,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "lowes-blr"
+      "_id": "lowes-blr",
+      "careerUrl": "https://talent.lowes.com/us/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -2614,7 +2701,10 @@
       "state": "Maharashtra",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "mastercard-pune"
+      "_id": "mastercard-pune",
+      "careerUrl": "https://careers.mastercard.com/us/en/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -2702,7 +2792,10 @@
       "state": "Maharashtra",
       "status": "Operational",
       "type": "New",
-      "_id": "medtronic-pune"
+      "_id": "medtronic-pune",
+      "careerUrl": "https://www.medtronic.com/en-us/about/careers.html",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -2988,7 +3081,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "New",
-      "_id": "netflix-hyd"
+      "_id": "netflix-hyd",
+      "careerUrl": "https://jobs.netflix.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -3010,7 +3106,10 @@
       "state": "Karnataka",
       "status": "Announced",
       "type": "Expansion",
-      "_id": "nike-blr"
+      "_id": "nike-blr",
+      "careerUrl": "https://careers.nike.com/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -3032,7 +3131,10 @@
       "state": "Karnataka",
       "status": "Announced",
       "type": "Expansion",
-      "_id": "nokia-blr"
+      "_id": "nokia-blr",
+      "careerUrl": "https://www.nokia.com/careers/",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Chennai",
@@ -3098,7 +3200,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "novartis-hyd"
+      "_id": "novartis-hyd",
+      "careerUrl": "https://www.novartis.com/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -3120,7 +3225,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "novo-nordisk-blr"
+      "_id": "novo-nordisk-blr",
+      "careerUrl": "https://www.novonordisk.com/careers.html",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -3208,7 +3316,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "pepsico-hyd"
+      "_id": "pepsico-hyd",
+      "careerUrl": "https://www.pepsicojobs.com/main/jobs?location=India",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Chennai",
@@ -3626,7 +3737,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "rolls-royce-blr"
+      "_id": "rolls-royce-blr",
+      "careerUrl": "https://careers.rolls-royce.com/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Pune",
@@ -3670,7 +3784,10 @@
       "state": "Telangana",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "sanofi-hyd"
+      "_id": "sanofi-hyd",
+      "careerUrl": "https://jobs.sanofi.com/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -3692,7 +3809,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "schneider-blr"
+      "_id": "schneider-blr",
+      "careerUrl": "https://careers.se.com/life-at-schneider",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Hyderabad",
@@ -3934,7 +4054,10 @@
       "state": "Tamil Nadu",
       "status": "Announced",
       "type": "New",
-      "_id": "starbucks-chennai"
+      "_id": "starbucks-chennai",
+      "careerUrl": "https://careers.starbucks.com",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Coimbatore",
@@ -4132,7 +4255,10 @@
       "state": "Karnataka",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "target-blr"
+      "_id": "target-blr",
+      "careerUrl": "https://corporate.target.com/careers",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -4330,7 +4456,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "ups-chennai"
+      "_id": "ups-chennai",
+      "careerUrl": "https://www.jobs-ups.com/imea/en",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Pune",
@@ -4528,7 +4657,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "walmart-chennai"
+      "_id": "walmart-chennai",
+      "careerUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
@@ -4616,7 +4748,10 @@
       "state": "Tamil Nadu",
       "status": "Operational",
       "type": "Expansion",
-      "_id": "workday-chennai"
+      "_id": "workday-chennai",
+      "careerUrl": "https://www.workday.com/en-us/company/careers/overview.html",
+      "careerVerified": true,
+      "careerLastVerified": "2026-10-08"
     },
     {
       "city": "Bengaluru",
